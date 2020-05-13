@@ -1,7 +1,7 @@
 # panda_application
 
 
-This is an production application sample for the learning purposes.
+This is an environment part of production application sample for the learning purposes.
 
 The app consist of:
 - Sample Java web app with Junit test and Selenium test
@@ -9,6 +9,12 @@ The app consist of:
 - Jenkins with automatic Maven settings injection
 - Selenium grid with hub and firefox node
 - Artifactory
+
+This environment consist of:
+docker-compose
+2* Dockerfiles
+start.sh
+volumes
 
 How to run?
 - clone the repository to your local drive
