@@ -298,3 +298,63 @@ Keys.ReadAttempts                                    | 120
 Keys.ReadIntervalDuration                            | 1s
 
 2020-05-08T16:38:01.239Z [jfmd ] [INFO ] [44c3fa48a30dc1fd] [router_middlewares.go:59      ] [main                ] - Metadata (jfmd) service initialization completed in 84.920 seconds. Listening on port: 8086 [router]
+2020-05-13T11:49:23.866Z [jfmd ] [INFO ] [67b6faadcb44a424] [database_bearer.go:71         ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-05-13T11:49:24.127Z [jfmd ] [INFO ] [67b6faadcb44a424] [migrator.go:62                ] [main                ] - Applying 36 migrations files [database]
+2020-05-13T11:49:24.131Z [jfmd ] [INFO ] [67b6faadcb44a424] [application.go:73             ] [main                ] - Metadata (jfmd) service initialization started. Version: 2.4.3 Revision: 20403900 PID: 3161 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-05-13T11:49:24.171Z [jfmd ] [INFO ] [67b6faadcb44a424] [server_bearer.go:153          ] [main                ] - Got service_id from datastore: jfmd@01e6gkz74qm614k82x689eq128 [ServerInit]
+2020-05-13T11:49:28.238Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:49:33.255Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:49:38.286Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:49:43.306Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:49:48.340Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:49:53.352Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:49:58.357Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:50:03.384Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:50:08.421Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-13T11:50:13.446Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2020-05-13T11:50:16.509Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2020-05-13T11:50:16.509Z [jfmd ] [INFO ] [67b6faadcb44a424] [accessclient.go:51            ] [main                ] - Executing Router register at: localhost:8046 [access_client]
+2020-05-13T11:50:16.530Z [jfmd ] [INFO ] [67b6faadcb44a424] [router_middlewares.go:57      ] [main                ] - 
+
+Go Info
+========================
+
+PATH                                                 | /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/busybox:/curl:/opt/jfrog/artifactory/app/third-party/java/bin
+GOMAXPROCS                                           | 2
+Working Directory                                    | /opt/jfrog/artifactory/var
+Hostname                                             | 13af29d5bfc0
+GOROOT                                               | /
+GOPATH                                               | 
+
+2020-05-13T11:50:16.530Z [jfmd ] [INFO ] [67b6faadcb44a424] [router_middlewares.go:58      ] [main                ] - 
+Metadata Info
+========================
+
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxSizeMb               | 25
+Database.Type                                        | 0
+AccessClient.Url                                     | http://localhost:8081/access
+Port                                                 | 8086
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.Compress                    | true
+Keys.ReadIntervalDuration                            | 1s
+Shared.NewRelic.LicenseKey                           | 
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Application.Rotation.MaxFiles                | 10
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.AppName                              | 
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Keys.ReadAttempts                                    | 120
+Profiling.Enabled                                    | false
+
+2020-05-13T11:50:16.530Z [jfmd ] [INFO ] [67b6faadcb44a424] [router_middlewares.go:59      ] [main                ] - Metadata (jfmd) service initialization completed in 52.399 seconds. Listening on port: 8086 [router]
+2020-05-13T12:23:18.575Z [jfmd ] [INFO ] [1a19f132f576b971] [path_service.go:58            ] [main                ] - Deleting versions 1 for path pl/pandait/panda-application/1.0.2-SNAPSHOT/panda-application-1.0.2-20200427.115032-1.pom [path_service]
+2020-05-13T12:23:18.577Z [jfmd ] [INFO ] [1a19f132f576b971] [path_service.go:70            ] [main                ] - Deleting packages 0 for path pl/pandait/panda-application/1.0.2-SNAPSHOT/panda-application-1.0.2-20200427.115032-1.pom [path_service]
+2020-05-13T12:23:18.593Z [jfmd ] [INFO ] [1a19f132f576b971] [path_service.go:58            ] [main                ] - Deleting versions 1 for path pl/pandait/panda-application/1.0.2-SNAPSHOT/panda-application-1.0.2-20200508.170050-2.pom [path_service]
+2020-05-13T12:23:18.606Z [jfmd ] [INFO ] [1a19f132f576b971] [path_service.go:70            ] [main                ] - Deleting packages 1 for path pl/pandait/panda-application/1.0.2-SNAPSHOT/panda-application-1.0.2-20200508.170050-2.pom [path_service]

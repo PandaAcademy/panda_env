@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Fri May 08 16:36:58 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0171-f525-a66d-00001fa8b7f0 
+Wed May 13 11:49:36 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0172-0dde-5b1d-00001b600000 
 on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@7791a895 
 Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
 java.vendor=AdoptOpenJDK
@@ -13,8 +13,8 @@ derby.system.home=null
 derby.stream.error.file=/opt/jfrog/artifactory/var/log/derby.log
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Fri May 08 16:37:14 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 20e1c02b-0171-f525-a66d-00001fa8b7f0 
+Wed May 13 11:49:48 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance e1734037-0172-0dde-5b1d-00001b600000 
 on database directory /var/opt/jfrog/artifactory/data/access/derby with class loader java.net.URLClassLoader@7791a895 
 Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
 java.vendor=AdoptOpenJDK
@@ -26,8 +26,8 @@ os.version=5.3.0-51-generic
 derby.system.home=null
 derby.stream.error.file=/opt/jfrog/artifactory/var/data/access/derbyderby.log
 Database Class Loader started - derby.database.classpath=''
-Fri May 08 16:37:41 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 14961), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Cleanup action starting
-Fri May 08 16:37:41 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 14961), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1588955861605 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
+Wed May 13 11:49:58 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 51312), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Cleanup action starting
+Wed May 13 11:49:58 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 51312), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1589370598589 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
 ERROR 23505: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'ACCESS_CONFIGS_PK' defined on 'ACCESS_CONFIGS'.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -60,7 +60,7 @@ ERROR 23505: The statement was aborted because it would have caused a duplicate 
 	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$2c603b69.createConfig(<generated>)
+	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$3310d16.createConfig(<generated>)
 	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKeyToDb(JoinKeyAccess.java:179)
 	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKey(JoinKeyAccess.java:85)
 	at org.jfrog.access.server.startup.JoinKeyAccess.resolveJoinKey(JoinKeyAccess.java:79)

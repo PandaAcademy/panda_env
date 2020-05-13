@@ -10,3 +10,6 @@
 [filesystem "306e9c0e9b51|Oracle Corporation|1.8.0_242|/dev/sda1"]
 	timestampResolution = 5001 microseconds
 	minRacyThreshold = 0 nanoseconds
+[filesystem "9c531c758427|Oracle Corporation|1.8.0_242|/dev/sda1"]
+	timestampResolution = 5001 microseconds
+	minRacyThreshold = 0 nanoseconds

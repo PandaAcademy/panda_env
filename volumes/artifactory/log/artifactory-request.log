@@ -9122,3 +9122,855 @@
 2020-05-13T10:12:43.223Z|4172cbad0ab06c59|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
 2020-05-13T10:12:48.222Z|1ada9553dddbd8bb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
 2020-05-13T10:12:53.230Z|2b8b23ae1b12c1b9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:50:22.990Z|64afa3ff08c257db|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|151|JFrog-Frontend/1.4.1
+2020-05-13T11:50:23.313Z|1f8cb547dabc6cee|127.0.0.1|jffe@000|GET|/api/auth/screen/footer|200|-1|0|201|JFrog-Frontend/1.4.1
+2020-05-13T11:50:23.447Z|769810e1a4cac12b|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|120|JFrog-Frontend/1.4.1
+2020-05-13T11:50:23.447Z|5420bb4d0961fd97|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|121|JFrog-Frontend/1.4.1
+2020-05-13T11:50:23.479Z|1a225c99da109ffb|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|153|JFrog-Frontend/1.4.1
+2020-05-13T11:50:23.485Z|112eee1a5159241c|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|163|JFrog-Frontend/1.4.1
+2020-05-13T11:50:25.532Z|7fbe840af306c35d|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T11:50:25.539Z|77e4af73288c0296|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:50:25.540Z|3cac17da74596b9a|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T11:50:25.541Z|2fad7eac61e218bd|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|43|JFrog-Frontend/1.4.1
+2020-05-13T11:50:25.616Z|72847e36dd90c42b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T11:50:30.609Z|148e10d381899ec0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:50:35.614Z|2434f861837b50bc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:50:40.617Z|7d36d7313665aa72|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:50:45.621Z|94fe3b82f2b5be9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:50:50.620Z|357833936ab9a5a6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:50:55.572Z|1e5e703c85db74f1|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|69|JFrog-Frontend/1.4.1
+2020-05-13T11:50:55.581Z|4229f22909e7cefa|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|76|JFrog-Frontend/1.4.1
+2020-05-13T11:50:55.583Z|6bbb26e0e4eed350|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|80|JFrog-Frontend/1.4.1
+2020-05-13T11:50:55.585Z|6a9fbb202fa8e77e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|70|JFrog-Frontend/1.4.1
+2020-05-13T11:50:55.615Z|25121b3dacf2c5c4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:51:00.636Z|3b1764a3c16092e8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/1.2.1
+2020-05-13T11:51:05.629Z|2befbaf73c4e4a97|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T11:51:10.639Z|271c2ae15b611135|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/1.2.1
+2020-05-13T11:51:15.627Z|46adcf508243d33|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:51:20.639Z|9e42e7bc370a9d1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/1.2.1
+2020-05-13T11:51:25.622Z|5d52a021c37c41dc|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|116|JFrog-Frontend/1.4.1
+2020-05-13T11:51:25.622Z|3b96797741c1ae8b|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|118|JFrog-Frontend/1.4.1
+2020-05-13T11:51:25.672Z|4c338b8638ddf3e3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|45|JFrog-Router/1.2.1
+2020-05-13T11:51:25.675Z|4470b8d4968e4931|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|168|JFrog-Frontend/1.4.1
+2020-05-13T11:51:25.698Z|3c5bab4b90e2c871|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|192|JFrog-Frontend/1.4.1
+2020-05-13T11:51:30.640Z|20ef25d328827dfc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T11:51:35.640Z|59e918f44dd7f857|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T11:51:40.660Z|3c9191e34768d0cd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/1.2.1
+2020-05-13T11:51:45.653Z|4d1a454cf370179f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:51:50.649Z|6c3cbd14f05b3b14|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T11:51:55.582Z|1ea714c0ce6b8791|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|78|JFrog-Frontend/1.4.1
+2020-05-13T11:51:55.621Z|1c582fe4a143d7fd|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|117|JFrog-Frontend/1.4.1
+2020-05-13T11:51:55.622Z|4e6f5a8172988b21|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|117|JFrog-Frontend/1.4.1
+2020-05-13T11:51:55.625Z|488a89b3f0faa898|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|119|JFrog-Frontend/1.4.1
+2020-05-13T11:51:55.651Z|4d0c41efb9068569|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:52:00.651Z|78c22974db382c1e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/1.2.1
+2020-05-13T11:52:05.661Z|3cfbc553804a27d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/1.2.1
+2020-05-13T11:52:10.656Z|7eeccdafe7290dda|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/1.2.1
+2020-05-13T11:52:15.649Z|6d300877a9f42e6d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:52:20.648Z|601611a927452a8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:52:25.559Z|48691293b5a9f305|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|50|JFrog-Frontend/1.4.1
+2020-05-13T11:52:25.587Z|572c4010ef4a57e1|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|72|JFrog-Frontend/1.4.1
+2020-05-13T11:52:25.599Z|1229b2d64b5e1ace|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|46|JFrog-Frontend/1.4.1
+2020-05-13T11:52:25.600Z|41a7025576521752|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|49|JFrog-Frontend/1.4.1
+2020-05-13T11:52:25.653Z|39a9dbf3ae6be5b0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:52:30.665Z|eb6542e09ddf480|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/1.2.1
+2020-05-13T11:52:35.663Z|4e1bf6acf42648f9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/1.2.1
+2020-05-13T11:52:40.660Z|70dd9868acc8c211|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/1.2.1
+2020-05-13T11:52:45.655Z|25cd36d4ffdd6726|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T11:52:46.390Z|65d885715067a653|172.19.0.1|anonymous|GET|/api/auth/screen/footer|200|-1|0|78|JFrog-Frontend/1.4.1
+2020-05-13T11:52:46.596Z|65d885715067a653|172.19.0.1|anonymous|GET|/api/system/version|200|-1|0|288|JFrog-Frontend/1.4.1
+2020-05-13T11:52:46.789Z|5d867920c97303ca|172.19.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|391|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:47.056Z|5c3fc094b77e0540|172.19.0.1|anonymous|GET|/api/auth/current|200|-1|0|694|JFrog-Frontend/1.4.1
+2020-05-13T11:52:47.676Z|2874a2f8c6088f72|172.19.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|6|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:47.719Z|5aa0436686927466|172.19.0.1|anonymous|GET|/ui/oauth2/loginRequestPlatform|404|2|0|38|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:48.891Z|41837a437508f8c3|172.19.0.1|anonymous|GET|/api/auth/current|200|-1|0|57|JFrog-Frontend/1.4.1
+2020-05-13T11:52:50.370Z|1ddf499b3832b5b4|172.19.0.1|anonymous|POST|/ui/auth/login|200|54|0|187|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:50.407Z|1ddf499b3832b5b4|172.19.0.1|admin|GET|/api/auth/current|200|-1|0|25|JFrog-Frontend/1.4.1
+2020-05-13T11:52:50.533Z|1ddf499b3832b5b4|172.19.0.1|admin|POST|/api/auth/logout|200|0|0|30|JFrog-Frontend/1.4.1
+2020-05-13T11:52:50.657Z|7b5eb8e246b50e60|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:52:50.857Z|bf733bf23e8f4d2|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|80|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:50.953Z|36282f4f022a577b|172.19.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|176|JFrog-Frontend/1.4.1
+2020-05-13T11:52:51.052Z|406392782dba925f|172.19.0.1|admin|GET|/api/system/version|200|-1|0|3|JFrog-Frontend/1.4.1
+2020-05-13T11:52:51.057Z|406392782dba925f|172.19.0.1|admin|GET|/api/auth/screen/footer|200|-1|0|6|JFrog-Frontend/1.4.1
+2020-05-13T11:52:51.077Z|7924810733056933|172.19.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|28|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:51.080Z|757c6f784ca11a1e|172.19.0.1|admin|GET|/api/auth/current|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T11:52:51.246Z|247efc60a18a841c|172.19.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|31|JFrog-Frontend/1.4.1
+2020-05-13T11:52:51.295Z|4eb9af769851fa79|172.19.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|21|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:51.337Z|e7871203720ef61|172.19.0.1|admin|GET|/api/repodata|200|2|0|23|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:51.503Z|159936050b34c333|172.19.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|78|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:55.529Z|3416e9dfea0787d9|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T11:52:55.531Z|64b3eff2c3cc5ada|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T11:52:55.550Z|299d61551ef52d24|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|40|JFrog-Frontend/1.4.1
+2020-05-13T11:52:55.554Z|3bb8d8802471e7da|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|46|JFrog-Frontend/1.4.1
+2020-05-13T11:52:55.663Z|18e3be2846965f57|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/1.2.1
+2020-05-13T11:52:59.634Z|37911a0efba0fb6d|172.19.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:59.661Z|6248ba008620746b|172.19.0.1|admin|GET|/api/repodata|200|2|0|4|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:59.713Z|5755a256525462c4|172.19.0.1|admin|GET|/api/repodata|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:59.851Z|4de25531b693d8e9|172.19.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|6|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:52:59.858Z|6da0fda54653cb18|172.19.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:00.318Z|3c0d9048c5906e4e|172.19.0.1|admin|GET|/api/artifactsearch/property/keyvalue|200|2|0|18|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:00.392Z|4c02d75334af2068|172.19.0.1|admin|POST|/api/treebrowser|200|94|0|258|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:00.452Z|6f630e1915903369|172.19.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|104|0|28|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:00.658Z|17c0f7d621ac07fd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T11:53:00.731Z|37f697b5f00afecc|172.19.0.1|admin|POST|/api/artifactactions/download|200|36|0|28|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:01.042Z|12b108a84bd9e603|172.19.0.1|admin|POST|/api/artifactgeneral|200|69|0|98|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:01.385Z|5ec439c8e6fb7a6e|172.19.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:02.573Z|3dc6efd3eda1f940|172.19.0.1|admin|POST|/api/treebrowser|200|124|0|68|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:04.427Z|5da0fd5836bb234f|172.19.0.1|admin|POST|/api/treebrowser|200|126|0|17|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:05.653Z|52eb4731cda2f048|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:53:10.654Z|4cf566c7ef40b560|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:53:15.658Z|3200f2ebb61026c7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:53:15.749Z|4c8d45a0bd90289e|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|20|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:20.665Z|29058800eef88349|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T11:53:25.588Z|2edf64316cb96317|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|56|JFrog-Frontend/1.4.1
+2020-05-13T11:53:25.588Z|79d8a7c61e6bc87d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|56|JFrog-Frontend/1.4.1
+2020-05-13T11:53:25.592Z|3e89bf436a465e69|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|62|JFrog-Frontend/1.4.1
+2020-05-13T11:53:25.600Z|55350a4170b7931f|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|70|JFrog-Frontend/1.4.1
+2020-05-13T11:53:25.662Z|71e4864472c78153|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:53:30.672Z|21331d65f393c54d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/1.2.1
+2020-05-13T11:53:35.661Z|7c269ac03a834a67|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:53:40.667Z|67318549900f9460|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T11:53:40.759Z|c8e59d04e083f53|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|29|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:53:45.677Z|2e078901657cfc23|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/1.2.1
+2020-05-13T11:53:50.671Z|762c1773d7ad1ecc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T11:53:55.539Z|180e8fd419b38bd5|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T11:53:55.563Z|b9bd7e5ff70137f|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|45|JFrog-Frontend/1.4.1
+2020-05-13T11:53:55.571Z|227a03d9ea05ebaa|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|46|JFrog-Frontend/1.4.1
+2020-05-13T11:53:55.571Z|75b69c8c552b2f47|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|54|JFrog-Frontend/1.4.1
+2020-05-13T11:53:55.663Z|67aef4f7a908ad4c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:54:00.670Z|5dd95390a2a2593f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:54:05.685Z|7fb57f351546bb46|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|28|JFrog-Router/1.2.1
+2020-05-13T11:54:05.937Z|7d4103f295a5beb0|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|53|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:54:10.687Z|41a7a8501774250|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|27|JFrog-Router/1.2.1
+2020-05-13T11:54:15.669Z|5844d25d1f0cf368|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:54:20.673Z|739854f732856d6e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:54:25.557Z|7e37d92b896f836a|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T11:54:25.559Z|2e4bdfe4c7358854|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|35|JFrog-Frontend/1.4.1
+2020-05-13T11:54:25.559Z|1e11ae7924731db8|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T11:54:25.562Z|1d15a5d531da46f6|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|39|JFrog-Frontend/1.4.1
+2020-05-13T11:54:25.671Z|6b1f3044414fc51a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:54:30.689Z|2e1f04398bc6611e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|26|JFrog-Router/1.2.1
+2020-05-13T11:54:30.863Z|76507a6405e97b5c|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|36|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:54:35.672Z|7e032b14ead94cbb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:54:40.678Z|44088a3a0fed3d21|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:54:45.676Z|263b0b4406c091ce|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:54:50.680Z|3e6b7beb72a4e7e7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:54:55.558Z|33418acd66067b78|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|40|JFrog-Frontend/1.4.1
+2020-05-13T11:54:55.563Z|39808bd74d3895d1|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|50|JFrog-Frontend/1.4.1
+2020-05-13T11:54:55.564Z|558796d22493319c|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|50|JFrog-Frontend/1.4.1
+2020-05-13T11:54:55.568Z|3888584806e96906|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|51|JFrog-Frontend/1.4.1
+2020-05-13T11:54:55.683Z|7cf3e0d88dd85b93|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:54:55.745Z|6abcb8cae719efd5|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|16|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:55:00.689Z|4cc5d7593150deb1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:55:05.702Z|57ccfdaab002b7f4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/1.2.1
+2020-05-13T11:55:10.696Z|2545828bfa33ac36|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T11:55:15.691Z|5b44544296dc4f6b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:55:20.713Z|65b3930a8ac33a09|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/1.2.1
+2020-05-13T11:55:20.753Z|7928bb64ce2a8894|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|15|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:55:25.570Z|233c738c9293bf8c|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|55|JFrog-Frontend/1.4.1
+2020-05-13T11:55:25.572Z|467c549da0f77d2a|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|56|JFrog-Frontend/1.4.1
+2020-05-13T11:55:25.576Z|1b1338f80ae18b20|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|61|JFrog-Frontend/1.4.1
+2020-05-13T11:55:25.581Z|16a053de665f461d|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|65|JFrog-Frontend/1.4.1
+2020-05-13T11:55:25.723Z|637211031a0fa94|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|27|JFrog-Router/1.2.1
+2020-05-13T11:55:30.715Z|327e47b14aa30ee8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/1.2.1
+2020-05-13T11:55:35.711Z|7c499e1a41cdb5e1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:55:40.709Z|7959b316510dc077|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:55:45.708Z|440a1a2172a659e8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:55:45.746Z|4546567ba672c8ca|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|16|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:55:50.712Z|6c4e9fc00adcb278|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:55:55.548Z|39eb4efc4205c77a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T11:55:55.550Z|43be5a169f2507f3|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:55:55.553Z|74a8fcb3f6c89d6b|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|31|JFrog-Frontend/1.4.1
+2020-05-13T11:55:55.553Z|6f677ed9a5c25f57|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T11:55:55.713Z|1cf415073314c982|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:56:00.712Z|54b9cf4ee5d9d498|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:56:05.721Z|2238fc555a5a8fd9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/1.2.1
+2020-05-13T11:56:10.714Z|7c808df052002bff|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:56:10.767Z|2ab70b39ea26f375|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|38|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:56:15.717Z|100976836bb0d7c9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:56:20.722Z|9b924bdca60644a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:56:25.561Z|78d9d2ff3e0309b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:56:25.561Z|29d00b4256c103d5|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:56:25.564Z|6b0cdb3e7fb404f7|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T11:56:25.567Z|16c6aba6ab917ae|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|36|JFrog-Frontend/1.4.1
+2020-05-13T11:56:25.713Z|2f87fc8774a6a25e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:56:30.716Z|12129080c4786db7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:56:35.717Z|2b1c9421cdda7494|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:56:35.789Z|6cf03310e5596112|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|33|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:56:40.722Z|18be12360eb5fbcf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T11:56:45.723Z|2657234bca31e0d8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/1.2.1
+2020-05-13T11:56:50.724Z|7a9782f9fe6e4903|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T11:56:55.566Z|56e4dc214425a671|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T11:56:55.571Z|67a65f545fe85e55|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|37|JFrog-Frontend/1.4.1
+2020-05-13T11:56:55.576Z|3e701d9480942ae6|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|43|JFrog-Frontend/1.4.1
+2020-05-13T11:56:55.578Z|48c27663382c25e6|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|42|JFrog-Frontend/1.4.1
+2020-05-13T11:56:55.715Z|31f056ae7090a6d6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:57:00.718Z|3983adf15ef872cb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:57:00.768Z|6c48403a320b19f5|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|29|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:57:05.716Z|5e1f57cffcad3480|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:57:10.723Z|5965400b872e2127|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T11:57:15.718Z|5af3c7eb6a359c81|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:57:20.720Z|61110c85f338161b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:57:25.574Z|1b6088035622210f|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|41|JFrog-Frontend/1.4.1
+2020-05-13T11:57:25.576Z|42626a51a5f08525|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|44|JFrog-Frontend/1.4.1
+2020-05-13T11:57:25.581Z|6c954e46a461eef7|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|47|JFrog-Frontend/1.4.1
+2020-05-13T11:57:25.585Z|3f859be015264a7d|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|51|JFrog-Frontend/1.4.1
+2020-05-13T11:57:25.720Z|618ed354e2fdcd8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:57:25.743Z|36655e31c3cf23c0|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:57:30.723Z|4bdab9744dc26227|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:57:35.723Z|3f7aac599cb5a7e7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:57:40.729Z|4727b53e63346059|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/1.2.1
+2020-05-13T11:57:45.728Z|435968907a61173c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T11:57:50.728Z|c7519c9ba23d536|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:57:50.840Z|5285fe1845d2aeab|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|41|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:57:55.565Z|68b9ffd22dbfff9e|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T11:57:55.566Z|9f485e4c4d21d02|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:57:55.567Z|7b3345d87a6e76ff|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T11:57:55.571Z|7985b47480540b25|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|35|JFrog-Frontend/1.4.1
+2020-05-13T11:57:55.730Z|5c8fac29c087e6ce|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:58:00.728Z|34a8383905078f74|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:58:05.727Z|7f58f533fc8c8f38|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:58:10.733Z|7321194ea8cb8a3a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:58:15.734Z|3339643c3c2bfc22|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:58:15.830Z|6d396346be08919c|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|20|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:58:20.730Z|5af14d9fbde5ac8b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:58:25.573Z|f386b2ee03a7369|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T11:58:25.574Z|7e61c3b70b114ebf|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T11:58:25.588Z|6245ac1bc763a906|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|48|JFrog-Frontend/1.4.1
+2020-05-13T11:58:25.591Z|11d008ea19ed1e0e|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|53|JFrog-Frontend/1.4.1
+2020-05-13T11:58:25.734Z|33ef509699062b78|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:58:30.737Z|4994070246c94c44|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:58:35.741Z|6ea2ce816f98f439|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:58:40.739Z|4a965e0bf40e25f2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:58:40.816Z|28af08fbbec07523|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|21|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:58:45.742Z|42a7974d675c740d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:58:50.741Z|2b4c2d7a49a78348|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:58:55.554Z|71b54b62ec519ba0|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|14|JFrog-Frontend/1.4.1
+2020-05-13T11:58:55.565Z|55daeba9b32a6187|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T11:58:55.568Z|5469b014c564315b|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T11:58:55.584Z|5935900d02402700|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|46|JFrog-Frontend/1.4.1
+2020-05-13T11:58:55.742Z|49fc4a4d884b86dc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:59:00.743Z|1bc22a54c62e644c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:59:05.745Z|4a8bd62ca9537f7b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:59:05.869Z|35ae83a688195111|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|47|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:59:10.744Z|1483a74ed1703bad|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:59:15.750Z|6ac458cd86fc5391|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T11:59:20.747Z|65fa09d6788dfd6b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:59:25.564Z|3af98a155c8a994|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|21|JFrog-Frontend/1.4.1
+2020-05-13T11:59:25.570Z|1a5f22f45d80a368|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:59:25.571Z|72f6eb52a42ce55c|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:59:25.574Z|758ebb105d642d6c|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T11:59:25.744Z|ea8b6580b2fc06e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T11:59:30.747Z|1e38fad168cc4e87|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T11:59:30.808Z|445233ec7a01814|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T11:59:35.746Z|26bd5ed5d36f07d5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:59:40.746Z|4b05baeb17640e31|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T11:59:45.747Z|11fe05b1a095398a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:59:50.748Z|5b9f82ba505d88a2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T11:59:55.570Z|5df06f762652ef97|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|25|JFrog-Frontend/1.4.1
+2020-05-13T11:59:55.573Z|8121e6af2adaae5|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T11:59:55.576Z|618c25beb3fa5c23|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T11:59:55.588Z|5e8558319f957c9e|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|44|JFrog-Frontend/1.4.1
+2020-05-13T11:59:55.753Z|3225758413e90d10|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T11:59:55.809Z|53e59eae66c52114|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|14|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:00:00.755Z|427e82d4da166c8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T12:00:05.750Z|7b13ca5fb6d0d22|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:00:10.747Z|7f4d1f808899d6e0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:00:15.755Z|6e06707382fdb528|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:00:20.748Z|774c812ff3973837|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:00:20.820Z|487e1e123c074cc3|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|16|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:00:25.612Z|f02ec5a9ea939f9|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|48|JFrog-Frontend/1.4.1
+2020-05-13T12:00:25.654Z|525a9f49813ab09f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|53|JFrog-Frontend/1.4.1
+2020-05-13T12:00:25.657Z|159b467b4afa46d9|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|38|JFrog-Frontend/1.4.1
+2020-05-13T12:00:25.666Z|75b6128fa0e1ae88|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T12:00:25.763Z|590ace0bebabdb15|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/1.2.1
+2020-05-13T12:00:30.754Z|45e61d09dc5417bc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:00:35.766Z|220046463754cba|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/1.2.1
+2020-05-13T12:00:40.754Z|789838ea8ba783fb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:00:45.756Z|6ff540c45d515df5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:00:45.827Z|7e52c9b18247d629|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|28|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:00:50.767Z|7756a7cd10abe964|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/1.2.1
+2020-05-13T12:00:55.618Z|1ae92b87d617fa2f|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|69|JFrog-Frontend/1.4.1
+2020-05-13T12:00:55.619Z|12eeff79f96ddf04|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|69|JFrog-Frontend/1.4.1
+2020-05-13T12:00:55.622Z|7714fe61d7d4839f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|76|JFrog-Frontend/1.4.1
+2020-05-13T12:00:55.632Z|62b639402041d92|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|83|JFrog-Frontend/1.4.1
+2020-05-13T12:00:55.754Z|23588276a1638214|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:01:00.758Z|60298733c3228417|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:01:05.764Z|4658a2b558878196|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T12:01:10.763Z|63681e3f4122b04c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T12:01:10.840Z|76a1d18fc0992ca2|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|42|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:01:15.764Z|427b66b5867495c8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T12:01:20.762Z|6a0451352f71d16b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:01:25.627Z|198299bdae83b50d|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|78|JFrog-Frontend/1.4.1
+2020-05-13T12:01:25.633Z|1c35ac3faf5c0b5b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|85|JFrog-Frontend/1.4.1
+2020-05-13T12:01:25.645Z|7a6621548391488|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|97|JFrog-Frontend/1.4.1
+2020-05-13T12:01:25.645Z|4c6c13f5968c5319|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|98|JFrog-Frontend/1.4.1
+2020-05-13T12:01:25.803Z|6a2bd29c29838a89|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/1.2.1
+2020-05-13T12:01:30.813Z|19ca0b21edee08d9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|32|JFrog-Router/1.2.1
+2020-05-13T12:01:35.785Z|4938ac48f5d64ec8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:01:35.827Z|56711111eb3ed0ac|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|20|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:01:40.789Z|48a7572da0e17cd5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:01:45.788Z|190ade30652057bb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:01:50.794Z|7d660011a29a80ad|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/1.2.1
+2020-05-13T12:01:55.623Z|6485e476b19fc9d3|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|66|JFrog-Frontend/1.4.1
+2020-05-13T12:01:55.630Z|4f4471beddc7b976|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|74|JFrog-Frontend/1.4.1
+2020-05-13T12:01:55.631Z|33717c380c39fa90|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|76|JFrog-Frontend/1.4.1
+2020-05-13T12:01:55.640Z|6f011640eecb18b7|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|86|JFrog-Frontend/1.4.1
+2020-05-13T12:01:55.785Z|583b68cc55500523|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:02:00.791Z|84bce4aaaa4275b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:02:00.829Z|96555d93c7c47ba|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|25|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:02:05.802Z|1216b2a060c4a7bf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:02:10.801Z|758f47b30c0d0d10|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T12:02:15.792Z|29056fd374d7c636|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:02:20.814Z|5a9582b35fc02623|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/1.2.1
+2020-05-13T12:02:25.591Z|1cd2190e38b74d35|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:02:25.591Z|60e08a29b39e7acb|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T12:02:25.596Z|7d295f3ca27781f0|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|38|JFrog-Frontend/1.4.1
+2020-05-13T12:02:25.598Z|63c087f899a6e12|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|39|JFrog-Frontend/1.4.1
+2020-05-13T12:02:25.791Z|7bbe74f22be47ca3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:02:25.822Z|3f04b2d9c310debd|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|17|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:02:30.794Z|11bf0c97ce89bd0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:02:35.793Z|5504be6c05184495|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:02:40.797Z|37a31cdea363cc50|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:02:45.795Z|7d876223c243a31|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:02:50.796Z|6f65e7b9218560a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:02:50.837Z|31ff279ecba15e90|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:02:55.570Z|722e9c8dcf55290b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.4.1
+2020-05-13T12:02:55.571Z|745959a98caa5eb1|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|18|JFrog-Frontend/1.4.1
+2020-05-13T12:02:55.577Z|6bd86e33f42fc5f5|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:02:55.578Z|7b4ab5d9df3c945f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|25|JFrog-Frontend/1.4.1
+2020-05-13T12:02:55.797Z|73a465243b4c166a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:03:00.797Z|38c8bb399f394c9c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:03:05.799Z|60415c45c99cd13a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:03:10.802Z|59a5f412664d34bd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:03:15.802Z|69aa25f0f429908b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:03:15.819Z|12559fc4773571b5|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|14|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:03:20.800Z|30764a513caa3d78|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:03:25.577Z|24513595cb2a826|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T12:03:25.581Z|600a8ee419c539f5|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:03:25.582Z|2ef58074c5d7b278|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|27|JFrog-Frontend/1.4.1
+2020-05-13T12:03:25.583Z|917ddc910d9d75|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:03:25.801Z|86b94c21109d3c1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:03:30.806Z|1af506b0ed30ae39|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:03:35.807Z|751b350bd63ec91c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:03:40.805Z|426353c644d861f6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:03:40.833Z|1e7d58655d8188ff|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|31|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:03:45.806Z|533e0f8e24181ad9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:03:50.806Z|389383a9c3aca35b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:03:55.577Z|3ad8ea051db399ba|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:03:55.580Z|22fbccab24164db1|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:03:55.583Z|7031b36b577ba7f8|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|25|JFrog-Frontend/1.4.1
+2020-05-13T12:03:55.587Z|77f2914504344b58|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:03:55.807Z|174a2a1db508ad54|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:04:00.810Z|6a03ec3219438699|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:04:05.811Z|35f4c9e30362213b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:04:05.829Z|5fcecb23c33ed250|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|13|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:04:10.845Z|4dedd5d7408c9378|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:04:15.845Z|1c84d7951b929f7b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:04:20.854Z|2a213406bf6d24fa|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/1.2.1
+2020-05-13T12:04:25.587Z|599a3cdb1524ba4|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:04:25.588Z|6202f7e30d7f1359|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:04:25.594Z|568a7d35e0a157a4|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:04:25.595Z|8534179a052a4b7|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|27|JFrog-Frontend/1.4.1
+2020-05-13T12:04:25.845Z|7ee539a4b8da2ed0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:04:30.825Z|696da78200b43dc7|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|13|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:04:30.849Z|7946837d32d59539|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:04:35.845Z|578b95fe3a67d5a9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:04:40.846Z|16fce79adcaf987e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:04:45.849Z|18f2426d625bd0b3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:04:50.849Z|2699fefb222452d0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:04:55.582Z|df9dcb8b8fb5997|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.4.1
+2020-05-13T12:04:55.587Z|5d453f114e189acf|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:04:55.588Z|11619eb91a4495ed|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:04:55.589Z|207e1cd08c01fb|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|25|JFrog-Frontend/1.4.1
+2020-05-13T12:04:55.821Z|6ba88d150d89d951|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:04:55.848Z|322d7d9a685eff99|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:05:00.849Z|145c956392df0894|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:05:05.857Z|80a946f62eea6a3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:05:10.851Z|7297675e3a8d5e4a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:05:15.850Z|34bf11d2db1eb712|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:05:20.838Z|6e2ee9804695c51e|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|20|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:05:20.852Z|16414b2910daed39|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:05:25.635Z|38175626afc8157c|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|69|JFrog-Frontend/1.4.1
+2020-05-13T12:05:25.645Z|400a00d69a7f5d27|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|75|JFrog-Frontend/1.4.1
+2020-05-13T12:05:25.646Z|3b2538b75aba086|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|78|JFrog-Frontend/1.4.1
+2020-05-13T12:05:25.660Z|4d275f7750de1c83|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|96|JFrog-Frontend/1.4.1
+2020-05-13T12:05:25.880Z|4e524b77a3d516e7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|33|JFrog-Router/1.2.1
+2020-05-13T12:05:30.853Z|42896f8c6ede6edc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:05:35.853Z|2664ad22fba50e89|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:05:40.856Z|3647511511649072|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:05:45.824Z|12e296f89e35b714|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|13|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:05:45.854Z|769ae50018be7a4b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:05:50.857Z|20393e710d9de02a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:05:55.584Z|771b487abc99cefa|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|16|JFrog-Frontend/1.4.1
+2020-05-13T12:05:55.590Z|458a4768906a65b1|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:05:55.592Z|4aa25939cef64d8a|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:05:55.593Z|58d52302832aaa1c|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:05:55.855Z|10dbfe911dbc427c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:06:00.857Z|17de0b01e5410ab2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:06:05.868Z|b0c4cec5d5fef6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/1.2.1
+2020-05-13T12:06:10.823Z|62419f45364a47d|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:06:10.864Z|2450753e2e46ba44|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:06:15.857Z|6db8c3a88b900aa9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:06:20.859Z|52a0a9c1cc5001e0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:06:25.593Z|20cab88f9e800ae4|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:06:25.606Z|6f7ecad210661b6c|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T12:06:25.607Z|740f1f39c5c93b6d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T12:06:25.610Z|2d905d76b43ca8da|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|35|JFrog-Frontend/1.4.1
+2020-05-13T12:06:25.857Z|9cb3aede0e4c7db|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:06:30.860Z|3f6af3a0a59a58f5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:06:35.843Z|24469050252628c7|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|21|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:06:35.865Z|5a8c9cf0d072a6a3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:06:40.871Z|29789ad79b70fef9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:06:45.874Z|4d649941fb0d9111|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/1.2.1
+2020-05-13T12:06:50.876Z|15677e0e5ff2a142|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/1.2.1
+2020-05-13T12:06:55.614Z|7780beca0cbbe728|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|37|JFrog-Frontend/1.4.1
+2020-05-13T12:06:55.644Z|262e2845e52a2b4c|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|68|JFrog-Frontend/1.4.1
+2020-05-13T12:06:55.644Z|71d580d51fb1b8bc|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|68|JFrog-Frontend/1.4.1
+2020-05-13T12:06:55.644Z|102a737b0ccab6cd|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|68|JFrog-Frontend/1.4.1
+2020-05-13T12:06:55.874Z|1c3e6454c0b21374|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:07:00.843Z|10e6910d71b9cc5b|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|24|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:07:00.866Z|449f2ba07b16e122|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:07:05.873Z|4d479eb72cbe451c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:07:10.869Z|5b90a1325118caf4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:07:15.880Z|699da38186117a75|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/1.2.1
+2020-05-13T12:07:20.875Z|226504eb0f96cec9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:07:25.637Z|4c6d77fe94dfa566|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|61|JFrog-Frontend/1.4.1
+2020-05-13T12:07:25.656Z|15945a4f2679f12c|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|80|JFrog-Frontend/1.4.1
+2020-05-13T12:07:25.664Z|235ee464f5cf8875|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|88|JFrog-Frontend/1.4.1
+2020-05-13T12:07:25.673Z|2753a98eeebaf360|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|97|JFrog-Frontend/1.4.1
+2020-05-13T12:07:25.876Z|54a02009afbc449d|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|33|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:07:25.898Z|1bd0d2f9562ae813|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/1.2.1
+2020-05-13T12:07:30.882Z|10dc6fc3cd5e0d7e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/1.2.1
+2020-05-13T12:07:35.876Z|4bac5c93e5ec5958|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:07:40.873Z|230690a075f3af3b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:07:45.872Z|5aa178b5a340e321|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:07:50.847Z|36a58eb1c9382031|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|23|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:07:50.872Z|1d72814b48391126|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:07:55.602Z|4540ae5504cc3d2e|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:07:55.605Z|1ce08093cea8d9c2|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:07:55.607Z|64d9625cf5022e2d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:07:55.608Z|3ec4cac7fbd34711|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:07:55.874Z|1678945b971d9837|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:08:00.876Z|509c2d76e3b415f4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:08:05.874Z|113098e2953ad844|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:08:10.874Z|e927d7e756cf27e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:08:15.834Z|49478a918477049b|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|17|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:08:15.881Z|8f9dfa54dfaca55|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:08:20.890Z|45654be436b6acf2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:08:25.606Z|4f1345ba5eca9118|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:08:25.607Z|3265ea3980cbede9|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:08:25.607Z|7bc4055ab2cd2f4a|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:08:25.607Z|17a6f80c50620464|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:08:25.897Z|44eb566d6b354023|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:08:30.902Z|7d7066fc6c161e70|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:08:35.909Z|6a813ab1d9a5a480|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:08:40.848Z|46642602f9b4ca34|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|22|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:08:40.911Z|5e296010860dbcd4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:08:45.916Z|254a1832fa4db1bc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/1.2.1
+2020-05-13T12:08:50.909Z|53677c5f42b82d10|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:08:55.612Z|547ecb4b2d8074aa|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|31|JFrog-Frontend/1.4.1
+2020-05-13T12:08:55.613Z|42eafa84b21f533f|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T12:08:55.623Z|4238fac38eb28cd|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|41|JFrog-Frontend/1.4.1
+2020-05-13T12:08:55.624Z|f35b48aee9dbeba|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|43|JFrog-Frontend/1.4.1
+2020-05-13T12:08:55.909Z|6bd6fc568a4aa48d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:09:00.910Z|4385e979fe60d3f0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:09:05.838Z|418c573438452ea4|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:09:05.908Z|2c88a0a31c4e7ed3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:09:10.908Z|223b0b96d45822ba|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:09:15.910Z|2b74bdb01dbff655|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:09:20.921Z|4aa093e55a626f59|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:09:25.618Z|4309a5d22d41e57c|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:09:25.619Z|69ed902bbf0f2f6b|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|35|JFrog-Frontend/1.4.1
+2020-05-13T12:09:25.621Z|24b7b32af3cb4d75|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|37|JFrog-Frontend/1.4.1
+2020-05-13T12:09:25.625Z|6d2954aa11afbfe|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|5|JFrog-Frontend/1.4.1
+2020-05-13T12:09:25.910Z|29a38a684385181b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:09:30.834Z|28bdb2993f156193|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:09:30.918Z|2637c16c0eada6f5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:09:35.912Z|5029c14b73198e05|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:09:40.912Z|43eef3a49eea2364|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:09:45.923Z|179ff1028fcd71e4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:09:50.923Z|183603d1aeb70f25|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:09:55.600Z|68b93625deb7543b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.4.1
+2020-05-13T12:09:55.622Z|5beb84188add1cf3|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T12:09:55.637Z|30f7670885bcec1d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|49|JFrog-Frontend/1.4.1
+2020-05-13T12:09:55.637Z|75e56a861a411f1e|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|54|JFrog-Frontend/1.4.1
+2020-05-13T12:09:55.895Z|5c7dc5ae5e200d8f|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|15|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:09:55.922Z|1c5cbeb31823074b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:10:00.937Z|7b2e2e84cfd27b3b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:10:05.934Z|c109f58e60beb8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:10:10.931Z|79187a5c12daefec|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:10:15.932Z|6ac9e8d537474cc6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:10:20.862Z|5263ec8e4c7bb606|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|31|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:10:20.929Z|29bf720f6b2e406c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:10:25.693Z|bde18dacce545a4|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|69|JFrog-Frontend/1.4.1
+2020-05-13T12:10:25.711Z|27d7fa1ba259d7d1|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|80|JFrog-Frontend/1.4.1
+2020-05-13T12:10:25.723Z|39c8b64d224ee63e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|89|JFrog-Frontend/1.4.1
+2020-05-13T12:10:25.740Z|64d7fd6510df455|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|50|JFrog-Frontend/1.4.1
+2020-05-13T12:10:25.943Z|60a21c35b8a79f74|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/1.2.1
+2020-05-13T12:10:30.940Z|4219ca82964ecf01|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:10:35.941Z|78eb0e8a00ff194a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:10:40.944Z|653051432f9918c7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:10:45.848Z|754d0c181eb69928|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|24|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:10:45.942Z|5c5cd7fa10ba25b6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:10:50.947Z|414bd8885945f5cd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:10:55.617Z|23715697481a9cea|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:10:55.619Z|32da76cb1dd56860|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T12:10:55.625Z|28fa8353fe7a940f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|37|JFrog-Frontend/1.4.1
+2020-05-13T12:10:55.632Z|1f987158ea2c485c|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|43|JFrog-Frontend/1.4.1
+2020-05-13T12:10:55.945Z|4f652f2e60ef4979|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:11:00.945Z|11a93add9afab481|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:11:05.946Z|274736a5e552a7a6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:11:10.841Z|6638ba82e46bbdb5|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|18|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:11:10.945Z|24d37b302810d8c9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:11:15.948Z|13a82528171cbc33|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:11:20.956Z|13a3b2f39d4fd75c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:11:25.631Z|2d9502e8273bf2cf|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|42|JFrog-Frontend/1.4.1
+2020-05-13T12:11:25.654Z|6bccb36b5d158ca8|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|65|JFrog-Frontend/1.4.1
+2020-05-13T12:11:25.640Z|5ab15ee621384fc8|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|44|JFrog-Frontend/1.4.1
+2020-05-13T12:11:25.655Z|253bed5a7cc79920|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|65|JFrog-Frontend/1.4.1
+2020-05-13T12:11:25.951Z|53955957a8276b47|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:11:30.955Z|5ec06c51dbb1d194|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:11:35.873Z|a330609dd7c0cc7|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|28|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:11:35.957Z|bd63a7c8991414a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:11:40.955Z|515d376c7214d4ac|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:11:45.958Z|219a1d409c28bf1c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:11:50.956Z|41140ee9dfab28d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:11:55.622Z|221972ff54ce1506|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T12:11:55.622Z|333060fa70b4e467|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T12:11:55.621Z|27fcb1c66d52d01b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:11:55.627Z|58e788ddc2fddf69|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|17|JFrog-Frontend/1.4.1
+2020-05-13T12:11:55.957Z|2afeba8fbd84fbee|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:12:00.847Z|7fca2d562a7fedd7|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|23|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:12:00.951Z|2d17b513c382dfc3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:12:05.968Z|19182f564e52f132|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:12:10.959Z|3d76414c6eabd3f0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:12:15.962Z|2c9b05346ff47381|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:12:20.968Z|40cefa349f26549c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/1.2.1
+2020-05-13T12:12:25.640Z|4ac3732b09944c74|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|39|JFrog-Frontend/1.4.1
+2020-05-13T12:12:25.649Z|1a97244b19044ae4|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|61|JFrog-Frontend/1.4.1
+2020-05-13T12:12:25.667Z|545c03d66c5e48c8|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|67|JFrog-Frontend/1.4.1
+2020-05-13T12:12:25.710Z|350079c862f586ef|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|114|JFrog-Frontend/1.4.1
+2020-05-13T12:12:25.863Z|401a0b7dc5f0fd7d|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|35|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:12:25.961Z|9a47bec2699dff2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:12:30.963Z|30348d2582a67aed|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:12:35.969Z|78811da99df43007|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:12:40.974Z|12eb18a85f501d69|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:12:45.983Z|53359211d33fe325|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/1.2.1
+2020-05-13T12:12:48.936Z|c4e33faa61fa2a9|172.19.0.5|non_authenticated_user|GET|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/maven-metadata.xml|401|-1|0|26|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:49.520Z|e7c13b44a7678a46|172.19.0.5|admin|GET|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/maven-metadata.xml|404|-1|0|570|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:50.505Z|e8aeb74e125dd5f5|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/panda-application-0.0.2-20200513.121249-1.jar|201|27351724|0|923|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:50.766Z|7bfad8b93398d4a9|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/panda-application-0.0.2-20200513.121249-1.jar.sha1|201|40|0|25|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:50.776Z|76ee62aaacc669c5|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/panda-application-0.0.2-20200513.121249-1.jar.md5|201|32|0|7|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:50.874Z|2d822d528149ed08|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|18|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:12:50.971Z|33f926d29231a390|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:12:50.971Z|978d6f22372bd3f4|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/panda-application-0.0.2-20200513.121249-1.pom|201|4873|0|186|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:50.989Z|62de245348e75bad|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/panda-application-0.0.2-20200513.121249-1.pom.sha1|201|40|0|7|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.010Z|b6375f2aa0f278c9|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/panda-application-0.0.2-20200513.121249-1.pom.md5|201|32|0|16|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.089Z|5ad59938976d9ced|172.19.0.5|admin|GET|/libs-snapshot-local/pl/pandait/panda-application/maven-metadata.xml|200|-1|380|66|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.092Z|437cb7ce903a1dc8|172.19.0.5|admin|GET|/libs-snapshot-local/pl/pandait/panda-application/maven-metadata.xml.sha1|200|-1|40|2|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.107Z|3ca9ecac048fe558|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/maven-metadata.xml|202|777|0|2|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.111Z|c067eeed6b8e234|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/maven-metadata.xml.sha1|200|40|0|2|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.118Z|995eb3d498011c9|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/0.0.2-SNAPSHOT/maven-metadata.xml.md5|200|32|0|1|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.168Z|64e27d55ec795ba8|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/maven-metadata.xml|201|363|0|47|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.171Z|5a108cfb33c332ee|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/maven-metadata.xml.sha1|200|40|0|1|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:51.174Z|2f497b8ea4d88934|172.19.0.5|admin|PUT|/libs-snapshot-local/pl/pandait/panda-application/maven-metadata.xml.md5|200|32|0|1|Apache-Maven/3.6.3 (Java 11.0.7; Linux 5.3.0-51-generic)
+2020-05-13T12:12:55.617Z|5aa85db5654edea0|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T12:12:55.618Z|138f76810c5bf18f|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T12:12:55.618Z|caa6e41f34c9e91|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:12:55.621Z|402f41e73dbbe1a4|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|2|JFrog-Frontend/1.4.1
+2020-05-13T12:12:55.971Z|6834371e8d2cfde8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:13:00.971Z|7b002faa880b9b6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:13:05.973Z|df3ddc1545decf9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:13:10.978Z|1c7b6cec4ca78e8e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:13:15.838Z|422983970f19207b|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|14|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:13:15.976Z|3a2e5a1c05cb0a6c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:13:20.986Z|3d1bcc0a3786bd7c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:13:25.611Z|1c93466e3913fdca|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:13:25.616Z|2859014198cca78|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|25|JFrog-Frontend/1.4.1
+2020-05-13T12:13:25.623Z|318cbb4e6a19c02a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:13:25.623Z|45a639c3049d5a8d|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T12:13:25.987Z|7e50698b5f6d0fe5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:13:30.995Z|38c20aa669254bf5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:13:35.997Z|1d78d035ae606747|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:13:40.838Z|1339bd8d29ef83cd|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:13:41Z|46dd7dda097ceb62|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:13:46.004Z|3205a3ffea5329cd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:13:51.004Z|44c190dc609eb223|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:13:55.608Z|4173a7e013f7554a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|16|JFrog-Frontend/1.4.1
+2020-05-13T12:13:55.621Z|4d45762a630dd659|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:13:55.625Z|3ed0914bfbb6ed58|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|31|JFrog-Frontend/1.4.1
+2020-05-13T12:13:55.626Z|536beea9a8a16a8|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|27|JFrog-Frontend/1.4.1
+2020-05-13T12:13:56.011Z|25c0217752b47b58|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:14:01.013Z|38b65c9f9aef25ae|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:14:05.865Z|6d3a03a039e646c|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|34|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:14:06.023Z|43b0ecbaffecbd9e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/1.2.1
+2020-05-13T12:14:11.029Z|3cc3738c5b9dc6d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:14:16.031Z|31ab1df10a38b156|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:14:21.032Z|7cdda707fb61747d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:14:25.617Z|563d59bbd9b49c52|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|19|JFrog-Frontend/1.4.1
+2020-05-13T12:14:25.617Z|46058ab1ea85d19a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:14:25.626Z|53fb74e55c221a91|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T12:14:25.629Z|aa5f178e093a706|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|31|JFrog-Frontend/1.4.1
+2020-05-13T12:14:26.032Z|28c5b29a5351af96|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:14:30.839Z|6207687e93d99c87|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|14|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:14:31.034Z|48dae8cbb34abb2c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:14:36.039Z|4fc62117b8f1c6c5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:14:41.038Z|3a5cacb5c890a86f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:14:46.037Z|59084993e7604b23|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:14:51.038Z|7ae5f51129941f8f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:14:55.612Z|36af1e3049d7c595|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|19|JFrog-Frontend/1.4.1
+2020-05-13T12:14:55.619Z|775ffec824f59638|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|13|JFrog-Frontend/1.4.1
+2020-05-13T12:14:55.631Z|e541a7a07e61164|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:14:55.631Z|5961d1b6c22cbc7d|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T12:14:55.835Z|18faa9c6e88edca2|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|10|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:14:56.037Z|33d833e35e77e04|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:15:01.039Z|102dffe3035a6143|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:15:06.040Z|9cf176d35db243e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:15:11.046Z|5f26096fb2481d96|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:15:16.046Z|1cc280a1d7343272|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:15:20.873Z|4d8fa530c7d6fd1b|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:15:21.051Z|f1eeb7e0c8c63c4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:15:25.608Z|1d74a65ffc00fdef|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|13|JFrog-Frontend/1.4.1
+2020-05-13T12:15:25.619Z|44585095c53c5cb4|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|25|JFrog-Frontend/1.4.1
+2020-05-13T12:15:25.622Z|73424b1d7649514|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|21|JFrog-Frontend/1.4.1
+2020-05-13T12:15:25.625Z|3032193b76bb5e68|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|31|JFrog-Frontend/1.4.1
+2020-05-13T12:15:26.052Z|4c6ed57a543c1c97|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:15:31.057Z|6fe7c989396791ba|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:15:36.061Z|3cfcd4d90323b4be|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:15:41.062Z|7d70f4931c02df2a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:15:45.857Z|68567769875fadc5|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|17|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:15:46.063Z|3d0c14242f495763|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:15:51.063Z|7b2c87a650c3aa65|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:15:55.617Z|50d3956104789c7b|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T12:15:55.623Z|4966a63d1ae17582|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|27|JFrog-Frontend/1.4.1
+2020-05-13T12:15:55.624Z|376217f6773fb547|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T12:15:55.626Z|3daca13c9a87c919|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:15:56.062Z|7c4c5977ffcfba5b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:16:01.067Z|53c3b7b2a1c6c393|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:16:06.079Z|5a10988c18b1db9a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:16:10.857Z|6babe46aba737c79|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|15|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:16:11.104Z|790f75f135f13619|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:16:16.105Z|48473ec156e5f6cc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:16:21.108Z|138c88e50b3a794b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:16:25.621Z|20553cdeaf1a466f|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:16:25.621Z|5d9559b8d3bfcc1b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:16:25.622Z|795f8686698b2250|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:16:25.624Z|26f31f8ce5b291ca|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|24|JFrog-Frontend/1.4.1
+2020-05-13T12:16:26.120Z|5b784e83906bda6f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:16:31.129Z|495c2764f89f0883|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:16:35.876Z|69d0f45e11186b09|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|18|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:16:36.132Z|6ea78fdc37edceb9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:16:41.133Z|336605fc14c4870e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:16:46.136Z|7fbd3a364494486f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:16:51.134Z|4b9208f05dfd8075|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:16:55.623Z|62cda55b831fd9f4|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|18|JFrog-Frontend/1.4.1
+2020-05-13T12:16:55.627Z|41847655533a10c9|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:16:55.636Z|4c76d305a223cdbc|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|17|JFrog-Frontend/1.4.1
+2020-05-13T12:16:55.637Z|5660c38509900495|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|32|JFrog-Frontend/1.4.1
+2020-05-13T12:16:56.135Z|41a0520ae88de032|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|2|JFrog-Router/1.2.1
+2020-05-13T12:17:00.857Z|32e82bbb251666e4|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|13|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:17:01.142Z|6d3ce361d6ad692b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:17:06.144Z|408e9c6a71d151bf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:17:11.145Z|6a8238068df36d4b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:17:16.149Z|76d7c5bb3bb263b1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:17:21.151Z|eccdb8484218c59|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:17:25.614Z|7f767caab5e2eae4|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|15|JFrog-Frontend/1.4.1
+2020-05-13T12:17:25.619Z|73cd05890b3a5ae1|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:17:25.622Z|611df966384b2f7|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|21|JFrog-Frontend/1.4.1
+2020-05-13T12:17:25.629Z|bde957352a14bf|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T12:17:25.857Z|5eca4fdaf5fac060|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|10|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:17:26.149Z|3cb93252ba44ee23|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:17:31.155Z|727996ac29585955|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:17:36.163Z|79c2386cb3cbbc76|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:17:41.164Z|3502b6179abee009|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:17:46.166Z|5a9757eca56527ff|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/1.2.1
+2020-05-13T12:17:50.905Z|5dac5495c37c1a38|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|51|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:17:51.160Z|60031f6d0e823a04|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:17:55.619Z|dda452e7d67d669|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|18|JFrog-Frontend/1.4.1
+2020-05-13T12:17:55.625Z|77554d1c4ef7420e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T12:17:55.635Z|4df6a1e436c4e098|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:17:55.645Z|7e70064d2660cc98|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|43|JFrog-Frontend/1.4.1
+2020-05-13T12:17:56.164Z|23cadc90f83c017d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:18:01.166Z|2526449b2e176e7a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:18:06.168Z|7fa8706b9e23b25b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:18:11.167Z|42272624c8d63b9f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:18:15.864Z|16d8c9c26d95c28b|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|16|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:18:16.167Z|19a9a15e32da31d8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:18:21.169Z|146c524b3133bf4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:18:25.626Z|2b704871bd3a821f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|17|JFrog-Frontend/1.4.1
+2020-05-13T12:18:25.627Z|3b1cc17ff2183f88|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|19|JFrog-Frontend/1.4.1
+2020-05-13T12:18:25.629Z|6f46d8f873f26f1f|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:18:25.633Z|350287f0389e7171|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T12:18:26.168Z|11853c391a89ade7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:18:31.172Z|24e15edf74268f8e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:18:36.169Z|78210261eedfe549|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:18:40.863Z|11661c1377cab842|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|13|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:18:41.170Z|6c4966ce9b2087bb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:18:46.171Z|23d335fb2166d645|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:18:51.186Z|3b65b495df476881|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:18:55.619Z|ee61fde1ae5bd4c|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|12|JFrog-Frontend/1.4.1
+2020-05-13T12:18:55.628Z|267cf16ed88a45d9|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|21|JFrog-Frontend/1.4.1
+2020-05-13T12:18:55.634Z|12f5586bd8e6bb13|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|27|JFrog-Frontend/1.4.1
+2020-05-13T12:18:55.639Z|429f8a6e39029a5e|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:18:56.175Z|628e741220d7cf11|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:01.184Z|bb2e7da720d4489|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:05.876Z|774df3bded2c9a5e|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|13|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:19:06.186Z|16e81fe8faae0f63|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:19:11.189Z|5caef5bcb042ba2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:16.188Z|7971c2bec372eab1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:21.189Z|160a49bbc4979beb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:25.630Z|7862c437b1cd3a11|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:19:25.633Z|4ff1ef698f8135a2|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T12:19:25.637Z|574cc4a9d811f39|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:19:25.645Z|6a653a90ae8f24a|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:19:26.191Z|5c0a24afb7c6cb81|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:19:30.868Z|13127ec4a591faea|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|10|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:19:31.191Z|37bd4a0375422cf3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:19:36.202Z|1f8a52c21d34d245|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:41.193Z|326e0e0ea9718771|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:46.197Z|2cc27627d88f7313|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:19:51.203Z|54a3ba3904886b51|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:19:55.631Z|16079a638b79e2a7|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|16|JFrog-Frontend/1.4.1
+2020-05-13T12:19:55.641Z|22457968138a101b|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:19:55.642Z|e007a9af7e96992|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T12:19:55.646Z|7887939668dc83c|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|33|JFrog-Frontend/1.4.1
+2020-05-13T12:19:55.870Z|41ba096362059269|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:19:56.202Z|7b9812520335e2e8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:01.203Z|5a9099bc77fd90e9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:06.204Z|15614c0716fe2b46|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:11.205Z|647d207b20e90e23|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:16.206Z|3f9d741c640af6f7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:20:20.887Z|f1a0649113e6705|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|17|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:20:21.205Z|6d542bd5c03f121|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:20:25.782Z|6672ffa9b9861f38|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|44|JFrog-Frontend/1.4.1
+2020-05-13T12:20:25.786Z|e0c9e8cc221fdd7|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|55|JFrog-Frontend/1.4.1
+2020-05-13T12:20:25.794Z|5f506c7931abbc95|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|56|JFrog-Frontend/1.4.1
+2020-05-13T12:20:25.803Z|ea09e7b7113688c|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|74|JFrog-Frontend/1.4.1
+2020-05-13T12:20:26.210Z|4f32ca963a214108|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:20:31.215Z|47dcd075a35d98f9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:36.215Z|3f8c63e241fc38b9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:41.217Z|5618dd8befabd79f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:20:45.899Z|22c3c688bb8888f4|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|29|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:20:46.221Z|187b9f33769ad7cf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:51.223Z|7713881e83b61702|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:20:55.633Z|4b863a4d58035c2c|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:20:55.636Z|82b6cde7b465f7|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|17|JFrog-Frontend/1.4.1
+2020-05-13T12:20:55.638Z|57d764157ac76eca|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|23|JFrog-Frontend/1.4.1
+2020-05-13T12:20:55.644Z|193cd0075c52604e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|26|JFrog-Frontend/1.4.1
+2020-05-13T12:20:56.227Z|1dddf73548b5714c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:21:01.229Z|d1f7cb61100a95d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:21:06.237Z|1acf8ae8fa5a6ac0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:21:10.882Z|6138c3d801c69ab9|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|13|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:11.243Z|6d756c517414bea6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:21:16.242Z|4eca3e29b49feb1f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:21:21.242Z|d6f9e4f18bcf46b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:21:25.637Z|26567b51dd00a050|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T12:21:25.644Z|e05a378dd4e1889|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:21:25.645Z|afe2c71b9cfbaf0|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|29|JFrog-Frontend/1.4.1
+2020-05-13T12:21:25.646Z|703f4962b8f8d413|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|28|JFrog-Frontend/1.4.1
+2020-05-13T12:21:26.241Z|112642593f007c0c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:21:31.244Z|319c83d94322897f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:21:31.625Z|2024bc1bbafd0069|172.19.0.1|jffe@000|GET|/api/auth/reauthenticate/access/admin|200|-1|0|47|JFrog-Frontend/1.4.1
+2020-05-13T12:21:31.701Z|2024bc1bbafd0069|172.19.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|96|0|29|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:31.785Z|4b1e7e0cb397b53b|172.19.0.1|admin|POST|/api/artifactactions/download|200|43|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:31.831Z|632b87cfbda4962e|172.19.0.1|admin|POST|/api/artifactgeneral|200|63|0|35|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:32.157Z|5b3e5c644b6eb103|172.19.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:34.529Z|12d034d0e20f3fb5|172.19.0.1|admin|POST|/api/treebrowser|200|163|0|20|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:35.876Z|53e48d41afbbad8f|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:36.244Z|7261ff4fa6355640|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:21:36.488Z|141d61cb40f6e17f|172.19.0.1|admin|POST|/api/treebrowser|200|164|0|4|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:38.366Z|391332f479d499fa|172.19.0.1|admin|POST|/api/treebrowser|200|164|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:40.652Z|669bdaa23830b2ec|172.19.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|114|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:40.693Z|2f9ece3bc727ea07|172.19.0.1|admin|POST|/api/artifactactions/download|200|86|0|1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:40.727Z|784931b1d2f99446|172.19.0.1|admin|POST|/api/artifactgeneral|200|103|0|25|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:40.910Z|527548e53a7a5d3a|172.19.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:41.251Z|13199389132b32ba|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:21:42.197Z|40e9a82baa61f8e6|172.19.0.1|admin|GET|/api/artifactwatches/status|200|2|0|18|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:44.629Z|44a2e433e8ff11eb|172.19.0.1|admin|GET|/api/artifactactions/deleteversions|200|2|0|47|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:46.253Z|4039cb8bf0703e63|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:21:49.979Z|2d96dcb7faff3624|172.19.0.1|admin|POST|/api/artifactactions/deleteversions|200|620|0|284|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:50Z|1997bcd970b439c6|172.19.0.1|admin|POST|/api/treebrowser|200|164|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:51.257Z|89a522e11c9c73e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:21:55.633Z|700057e0e1c70689|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|15|JFrog-Frontend/1.4.1
+2020-05-13T12:21:55.638Z|20834ea6a611bd27|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|20|JFrog-Frontend/1.4.1
+2020-05-13T12:21:55.657Z|69b1941a73664efd|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|36|JFrog-Frontend/1.4.1
+2020-05-13T12:21:55.658Z|fadf938210730bf|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|34|JFrog-Frontend/1.4.1
+2020-05-13T12:21:56.256Z|3784ce8d8446c284|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:21:57.523Z|1c7d4c334bc07c64|172.19.0.1|admin|GET|/api/auth/screen/footer|200|-1|0|4|JFrog-Frontend/1.4.1
+2020-05-13T12:21:57.523Z|1c7d4c334bc07c64|172.19.0.1|admin|GET|/api/system/version|200|-1|0|3|JFrog-Frontend/1.4.1
+2020-05-13T12:21:57.562Z|748f964a8cfcf93f|172.19.0.1|admin|GET|/api/auth/current|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:21:57.569Z|61c5dcd34ea7cc8|172.19.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:57.711Z|61dc300b49f7f12f|172.19.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|59|JFrog-Frontend/1.4.1
+2020-05-13T12:21:57.753Z|63da33e6762cd31|172.19.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:57.810Z|785eeea875661bc1|172.19.0.1|admin|GET|/api/repodata|200|2|0|1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:58.129Z|59bc6f6a1c2724ba|172.19.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:58.150Z|121f690ee5c8c4c9|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:58.195Z|749c4d8575d73725|172.19.0.1|admin|GET|/api/repodata|200|2|0|17|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:58.371Z|444ece7024979272|172.19.0.1|admin|GET|/api/repodata|200|2|0|1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:58.454Z|1fd894c5f23baa2f|172.19.0.1|admin|GET|/api/artifactsearch/property/keyvalue|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:58.919Z|3de54ab3e095a8da|172.19.0.1|admin|GET|/api/treebrowser/repoOrder|200|2|0|8|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:58.969Z|1fd711dfbd268445|172.19.0.1|admin|GET|/api/auth/current|200|-1|0|8|JFrog-Frontend/1.4.1
+2020-05-13T12:21:59.084Z|501ff41f1f9c60e4|172.19.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:59.098Z|5a26df61c007550a|172.19.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:59.333Z|1670e235cf479697|172.19.0.1|admin|POST|/api/treebrowser|200|111|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:59.620Z|6b3270f6f48b889|172.19.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|30|JFrog-Frontend/1.4.1
+2020-05-13T12:21:59.917Z|6ead1147ece6d65e|172.19.0.1|admin|POST|/api/treebrowser|200|166|0|7|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:21:59.954Z|82c03e98243bd3e|172.19.0.1|admin|POST|/api/treebrowser|200|215|0|4|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:00.009Z|76f3989230c8af9a|172.19.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|114|0|1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:00.289Z|7f638a487c0dee5b|172.19.0.1|admin|POST|/api/artifactactions/download|200|86|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:00.557Z|50a6c98f68a3864d|172.19.0.1|admin|POST|/api/artifactgeneral|200|103|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:00.808Z|13cde650018c31ad|172.19.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|5|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:01.257Z|5ae23dd49d02902c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|2|JFrog-Router/1.2.1
+2020-05-13T12:22:04.283Z|290104d8754082e5|172.19.0.1|admin|POST|/api/treebrowser|200|164|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:05.322Z|1cfa8d263373ab27|172.19.0.1|admin|GET|/api/artifactwatches/status|200|2|0|10|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:06.258Z|41a7e7876d2aff08|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:22:09.252Z|7439f68d27f0ba50|172.19.0.1|admin|POST|/api/artifactactions/delete|200|86|0|152|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:09.343Z|5f6b8d8153ad3b61|172.19.0.1|admin|POST|/api/treebrowser|200|163|0|11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:09.377Z|382652ba3904a521|172.19.0.1|admin|POST|/api/treebrowser|200|111|0|20|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:09.544Z|620dd98bc53fbf31|172.19.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|99|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:09.606Z|755b8fa3d7eb81fd|172.19.0.1|admin|POST|/api/treebrowser|200|113|0|3|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:09.680Z|1438bb2c00f5ee90|172.19.0.1|admin|POST|/api/artifactactions/download|200|71|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:09.683Z|4817e1f453934575|172.19.0.1|admin|POST|/api/artifactgeneral|200|88|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:09.914Z|58b535fc75178b4|172.19.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:10.549Z|21546b514771bd61|172.19.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|137|0|16|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:10.619Z|79afb9d1289ec113|172.19.0.1|admin|POST|/api/artifactactions/download|200|90|0|37|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:10.681Z|2999ecc7677ecf96|172.19.0.1|admin|POST|/api/artifactgeneral|200|104|0|88|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:10.937Z|5f6d753a4193b58d|172.19.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:10.947Z|1cfaeb59934c09fc|172.19.0.1|admin|GET|/api/dependencydeclaration|200|2|0|9|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:11.260Z|4974d060f3d04f6f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:22:16.260Z|128dec58831577c3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:22:17.861Z|14007e08e3682bdf|172.19.0.1|admin|POST|/api/artifactgeneral|200|88|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:18.443Z|110e6e0a2a853234|172.19.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:21.263Z|1b2efe8956b2a0ee|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/1.2.1
+2020-05-13T12:22:23.261Z|773ae16e57c6617c|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|10|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:25.634Z|177c1c11a721d755|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|14|JFrog-Frontend/1.4.1
+2020-05-13T12:22:25.638Z|1a9021c814b3eb7d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|18|JFrog-Frontend/1.4.1
+2020-05-13T12:22:25.640Z|1d43d13350fd0f48|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|21|JFrog-Frontend/1.4.1
+2020-05-13T12:22:25.642Z|1f619626890c33f3|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|22|JFrog-Frontend/1.4.1
+2020-05-13T12:22:26.259Z|5de1fabfeadee8ef|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:22:31.264Z|25e925ecfbf6a28e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:22:36.265Z|673c87d0fe442cc2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/1.2.1
+2020-05-13T12:22:41.266Z|11520767570436f9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:22:46.266Z|347989c62e390f08|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:22:48.299Z|2088528b2ee52ba5|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|15|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:22:51.266Z|1b471b34778d148c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:22:55.670Z|491f0ab79cc12f8c|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|47|JFrog-Frontend/1.4.1
+2020-05-13T12:22:55.681Z|4be4fafa056ec0aa|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|61|JFrog-Frontend/1.4.1
+2020-05-13T12:22:55.682Z|7a849ffb3c63f23d|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|63|JFrog-Frontend/1.4.1
+2020-05-13T12:22:55.684Z|348def6758e02f21|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|62|JFrog-Frontend/1.4.1
+2020-05-13T12:22:56.266Z|eb3b01571055a17|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:23:01.268Z|3275dae6dee6f4d6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/1.2.1
+2020-05-13T12:23:06.276Z|6d2261e9cd213249|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/1.2.1
+2020-05-13T12:23:11.285Z|6b15374e19fd33c1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/1.2.1
+2020-05-13T12:23:13.274Z|36025213e51f5e24|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+2020-05-13T12:23:16.268Z|2f8beb7946e117ed|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:23:21.270Z|1892e0f6ef31360d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:23:25.666Z|54fb967e79f7b38c|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|38|JFrog-Frontend/1.4.1
+2020-05-13T12:23:25.666Z|45e1b380253a5c2|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|42|JFrog-Frontend/1.4.1
+2020-05-13T12:23:25.666Z|c5202df7e6b43a0|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|45|JFrog-Frontend/1.4.1
+2020-05-13T12:23:25.670Z|3b37a0da400c843a|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|38|JFrog-Frontend/1.4.1
+2020-05-13T12:23:26.269Z|2294d2433fa5352c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.2.1
+2020-05-13T12:23:31.273Z|7ad495ce3926a17c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.2.1
+2020-05-13T12:23:36.279Z|7dd485119a4b0cfa|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/1.2.1
+2020-05-13T12:23:38.260Z|6a89de68c8c72178|172.19.0.1|admin|GET|/api/auth/screen/systemMessages|200|2|0|10|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0

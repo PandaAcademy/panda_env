@@ -11,5 +11,5 @@ endpoints:
 healthcheckendpoint:
   path: /artifactory/api/system/ping?skipLicenseCheck=true
   port: 8091
-nodeid: 43d921f25f12
+nodeid: 13af29d5bfc0
 serviceid: jfrt@01e6gkzhtba2gz14rj5jrj009s

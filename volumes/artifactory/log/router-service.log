@@ -83,3 +83,18 @@ shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.
 ################################################################
 ###   All services started successfully in 102.965 seconds   ###
 ################################################################
+2020-05-13T11:49:22.980Z [jfrou] [INFO ] [7c9b68f8974d79cc] [bootstrap.go:70               ] [main                ] - Router (jfrou) service initialization started. Version: 1.2.1 Revision: fe2dd4ed3212d39bdd665c92e17293e8071eb99d PID: 2871 Home: /opt/jfrog/artifactory
+2020-05-13T11:49:22.989Z [jfrou] [INFO ] [7c9b68f8974d79cc] [bootstrap.go:73               ] [main                ] - JFrog Router IP: 172.19.0.3
+2020-05-13T11:49:23.004Z [jfrou] [INFO ] [7c9b68f8974d79cc] [bootstrap.go:165              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-05-13T11:49:23.008Z [jfrou] [INFO ] [7c9b68f8974d79cc] [bootstrap.go:78               ] [main                ] - JFrog Router Service ID: jfrou@01e6gkz5mj75e8whsva5r4rjc6
+2020-05-13T11:49:23.008Z [jfrou] [INFO ] [7c9b68f8974d79cc] [bootstrap.go:79               ] [main                ] - JFrog Router Node ID: 13af29d5bfc0
+2020-05-13T11:49:24.996Z [jfrou] [INFO ] [7c9b68f8974d79cc] [config_holder.go:107          ] [main                ] - configuration update detected
+2020-05-13T11:49:58.643Z [jfrou] [INFO ] [7c9b68f8974d79cc] [join_executor.go:148          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get http://localhost:8040/access/api/v1/system/ping: context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2020-05-13T11:50:10.574Z [jfrou] [INFO ] [7c9b68f8974d79cc] [join_executor.go:181          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-05-13T11:50:10.595Z [jfrou] [INFO ] [7c9b68f8974d79cc] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 47.643 seconds. Listening on port: 8082
+2020-05-13T11:50:30.609Z [jfrou] [INFO ] [148e10d381899ec0] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 67.657 seconds   ###
+###############################################################

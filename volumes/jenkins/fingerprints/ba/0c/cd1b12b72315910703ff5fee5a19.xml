@@ -5,6 +5,10 @@
   <fileName>Credential id=github name=eternaltraces/****** (githubpass)</fileName>
   <usages>
     <entry>
+      <string>App</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
       <string>PandaApp</string>
       <ranges>1-2</ranges>
     </entry>

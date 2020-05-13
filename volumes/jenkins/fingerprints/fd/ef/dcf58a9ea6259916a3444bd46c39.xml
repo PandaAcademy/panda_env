@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-05-13 11:56:03.865 UTC</timestamp>
+  <md5sum>fdefdcf58a9ea6259916a3444bd46c39</md5sum>
+  <fileName>Credential id=PandaGitHub name=PandaAcademy/****** (GitHub for PandaAcademy)</fileName>
+  <usages>
+    <entry>
+      <string>App</string>
+      <ranges>2-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
