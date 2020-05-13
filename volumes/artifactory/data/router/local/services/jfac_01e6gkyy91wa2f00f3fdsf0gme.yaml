@@ -1,0 +1,16 @@
+endpoints:
+- paths:
+  - match: /com\.jfrog\.access\..*
+    replace: ""
+  port: 8045
+  protocol: 2
+- paths:
+  - match: access/.*
+    replace: ""
+  port: 8040
+  protocol: 1
+healthcheckendpoint:
+  path: /access/api/v1/system/ping
+  port: 8040
+nodeid: 43d921f25f12
+serviceid: jfac@01e6gkyy91wa2f00f3fdsf0gme

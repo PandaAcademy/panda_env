@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-03-23 18:59:56.884 UTC</timestamp>
+  <md5sum>ba0ccd1b12b72315910703ff5fee5a19</md5sum>
+  <fileName>Credential id=github name=eternaltraces/****** (githubpass)</fileName>
+  <usages>
+    <entry>
+      <string>PandaApp</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.4">
+      <timestamp>1586978009171</timestamp>
+      <itemFullName>Pipeline</itemFullName>
+      <timestamp0>1586978009171</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

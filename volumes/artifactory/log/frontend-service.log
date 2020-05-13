@@ -1,0 +1,7 @@
+2020-05-08T16:36:40.007Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.4.1 Revision: 0.0.0 PID: 3003 Home: /opt/jfrog/artifactory
+2020-05-08T16:38:11.444Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - setting service id - jffe@000
+2020-05-08T16:38:11.551Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2020-05-08T16:38:11.602Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2020-05-08T16:38:12.156Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Recurring tasks started
+2020-05-08T16:38:13.202Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 93.20 seconds. Listening on port: port 8070
+2020-05-08T16:43:35.664Z [33m[jffe ][39m [31m[WARN ][39m [7b8de445632fbc59] [                              ] [main                ] - could not refresh ui session token. request will still be accepted until the token expires. msg from access - Token matching the provided refresh token was not found.
