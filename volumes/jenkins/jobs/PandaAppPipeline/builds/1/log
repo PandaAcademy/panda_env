@@ -1,0 +1,33 @@
+Started by user [8mha:////4Os3Qum0k+v+iwxPaVjsTCgaIyY3nj4o66pD3+L3infTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git https://github.com/PandaAcademy/panda_application.git into /var/jenkins_home/workspace/PandaAppPipeline@script to read Jenkinsfile
+using credential PandaGitHub
+Cloning the remote Git repository
+Cloning repository https://github.com/PandaAcademy/panda_application.git
+ > git init /var/jenkins_home/workspace/PandaAppPipeline@script # timeout=10
+Fetching upstream changes from https://github.com/PandaAcademy/panda_application.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub for PandaAcademy
+ > git fetch --tags --progress -- https://github.com/PandaAcademy/panda_application.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/PandaAcademy/panda_application.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/PandaAcademy/panda_application.git # timeout=10
+Fetching upstream changes from https://github.com/PandaAcademy/panda_application.git
+using GIT_ASKPASS to set credentials GitHub for PandaAcademy
+ > git fetch --tags --progress -- https://github.com/PandaAcademy/panda_application.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse feature/pipeline^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/feature/pipeline^{commit} # timeout=10
+Checking out Revision 0140ec0a5c01cda4d8bdc15f5619ff158a58aad2 (refs/remotes/origin/feature/pipeline)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0140ec0a5c01cda4d8bdc15f5619ff158a58aad2 # timeout=10
+Commit message: "Update PandaApplicationSeleniumTest.java"
+First time build. Skipping changelog.
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4ODiEuCyIut2QswhXgoIJfOdYTg849IhXQ5fPJA+abA5AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4CxujMsRXWMlMZ1ELyl26SPKcDYbuJYSilY+xjeKD9mnAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+‘Slave’ is offline
+Aborted by [8mha:////4Os3Qum0k+v+iwxPaVjsTCgaIyY3nj4o66pD3+L3infTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+[8mha:////4IkNav64IadMySm4UWRNr9twbiDVgpIFbfwXKG/EEyGaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbaGesbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QfNmvKfvAAAAA==[0m[Pipeline] // node
+[8mha:////4J/GkpmFQrck6Otc8gINAv9rTz2cMdtBEInnng5cxrItAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbmFgZK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8B64OV1bwAAAA=[0m[Pipeline] End of Pipeline
+Finished: ABORTED

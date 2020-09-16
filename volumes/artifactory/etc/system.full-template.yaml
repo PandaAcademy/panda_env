@@ -119,6 +119,28 @@ shared:
     #EXAMPLE_VAR: example-value
     #LD_LIBRARY_PATH: /usr/lib64
 
+  ## Run as a given user and group
+  ## Note : This is only considered in linux archive installation which is installed as a service
+  ##        Make sure to change ownership of JFROG_HOME/artifactory/app and JFROG_HOME/artifactory/var directory, if this is modified after install
+  #user: artifactory
+  #group: artifactory
+
+  ## Metrics Configuration
+  metrics:
+    ## Settings for pushing metrics to Insight
+    filebeat:
+      ## If enabled, Filebeat will be started and metrics will be pushed to Elasticsearch
+      #enabled: false
+      ## Configuration settings for log files of filebeat
+      #log:
+         #enabled: false
+         ## Log level for filebeat. Possible values: debug, info, warning, or error.
+         #level: "info"
+      ## Elasticsearch details for filebeat to connect
+      #elasticsearch:
+        #url: "Elasticsearch url where JFrog Mission Control is installed" For example, http://<ip_address>:9200
+        #username: ""
+        #password: ""
 
 ## ARTIFACTORY TEMPLATE
 artifactory:
@@ -133,6 +155,14 @@ artifactory:
     #maxIdleConnections: 10
     # Connection pool manager. Either tomcat-jdbc or hikari
     #poolType: "tomcat-jdbc"
+
+  ## Node NFS storage settings. Used in HA setup only!
+  node:
+    # Data directory
+    #haDataDir:
+
+    # Backup directory
+    #haBackupDir:
 
   ## Artifactory Tomcat connector customization on the Artifactory port
   tomcat:
@@ -169,9 +199,9 @@ artifactory:
 
       ## Certificate key file to use.
       #certificateKeyFile: "$JFROG_HOME/artifactory/var/etc/artifactory/security/ssl/server.key"
-   
+
       ## Extra configuration for the HTTPS connector.
-      ## Example: 
+      ## Example:
       ## extraConfig: "SSLProtocol='TLSv1+TLSv1.1+TLSv1.2'"
       #extraConfig: ""
 
@@ -181,6 +211,16 @@ artifactory:
   env:
     #EXAMPLE_VAR: example-value
     #LD_LIBRARY_PATH: /usr/lib64
+
+  ## Metrics configuration
+  metrics:
+    ## If enabled is true, metrics will be collected and written to artifactory-metrics or
+    ## artifactory-metrics_events.log files
+    #enabled: true
+    ## Interval to collect metrics
+    #interval: 60
+    ## Excluded providers from metrics
+    #exclude:
 
 
 ## ACCESS TEMPLATE
@@ -221,7 +261,8 @@ access:
   env:
     #EXAMPLE_VAR: example-value
     #LD_LIBRARY_PATH: /usr/lib64
-
+  ## Skip creating default admin user on startup
+  #startUpSkipDefaultAdmin: false
 
 ## FRONTEND TEMPLATE
 frontend:
@@ -269,7 +310,7 @@ metadata:
   ## Logging Settings
   logging:
     application:
-      ## The log level: error, warning, info, debug
+      ## The log level: error, warn, info, debug
       #level: info
 
       ## If console value is true, application logs will also be written to standard out
@@ -280,7 +321,7 @@ metadata:
         #common:
         #  level: debug
         #daos:
-        #  level: warning
+        #  level: warn
 
       ## Log rotation settings
       rotation:
@@ -485,6 +526,15 @@ replicator:
   logging:
     application:
       #level: info
+    traffic:
+      #maxFileSizeMb: 25
+      #maxFiles: 10
+      ## Set rotationIntervalSecs to a positive number to enable rotation by time, as well as by file size (maxFileSizeMb)
+      #rotationIntervalSecs: 0
+      #compress: true
+      ## Traffic is aggregated and written to the log every intervalSecs seconds
+      #intervalSecs: 3
+      #eventsChannelSize: 1000
 
   ## TLS settings
   tls:
@@ -508,3 +558,142 @@ replicator:
   env:
     #EXAMPLE_VAR: example-value
     #LD_LIBRARY_PATH: /usr/lib64
+
+### EVENT TEMPLATE
+event:
+  ## Service http port
+  #port: 8061
+  ## Service grpc port
+  #grpcPort: 8062
+
+  ## Access token cache setting
+  tokenCache:
+    ## Duration for keeping the access token validation result in memory cache
+    #timeout: "1m"
+
+  ## Artifactory client settings
+  artifactoryClient:
+
+    ## HTTP request settings
+    request:
+      ## Http timeout in seconds
+      #timeout: 5
+
+  ## Support Bundle settings
+  supportBundle:
+    ## Timeout for gathering support bundle for the event service
+    #aggregationTimeout: 1h
+
+  ## Artifactory proxy cache setting
+  proxyCache:
+    ## Time between two proxies gatherings
+    #interval: 5m
+
+  ## Artifactory base URL cache setting
+  baseUrlCache:
+    ## Time between two base URL gatherings
+    #interval: 5m
+
+  ## Domain cache setting
+  domainCache:
+    ## Time between two domain gatherings
+    #interval: 5m
+
+  ## Profiling Related Settings
+  profiling:
+    ## Enable profiling endpoint for event service
+    #enabled: false
+
+  metrics:
+    ## If true, enable metrics gathering in this service
+    #enabled: false
+    #interval: "10s"
+    ## Excluded providers from metrics
+    #exclude:
+
+  ## Logging settings
+  logging:
+
+    application:
+      ## Log file name
+      #filePath: "event-service.log"
+      ## If true, app logs will also be written to standard out
+      #console: true
+      ## The log level: error, warn, info, debug, trace
+      ## This value is configurable during runtime
+      #level: "info"
+      ## The log format: jftext, json
+      #format: "jftext"
+      ## Whether to include the caller information (runtime frame)
+      #caller: false
+      ## Package-specific logging
+      #packages:
+        #events:
+          #level: "info"
+        #authorization:
+          #level: warn
+
+      ## Log rotation setting
+      rotation:
+        #compress: true
+        #maxSizeMb: 25
+        #maxAgeDays: 365
+        #maxFiles: 10
+
+    ## Web server request log settings
+    request:
+      #filePath: "event-request.log"
+      ## If true, request logs will also be written to standard out
+      #console: false
+
+      ## Log rotation setting
+      rotation:
+        #compress: true
+        #maxSizeMb: 25
+        #maxAgeDays: 365
+        #maxFiles: 10
+
+    ## Metrics log settings
+    metrics:
+      #filePath: "event-metrics.log"
+      #console: false
+
+      ## Log rotation setting
+      rotation:
+        #compress: true
+        #maxSizeMb: 25
+        #maxAgeDays: 365
+        #maxFiles: 10
+
+  ## Rate limite settings
+  rateLimit:
+    ## Mean number of events per second that can be sent to webhook targets.
+    #frequency: 1000.0
+    ## Maximum number of events that can be sent as fast as possible. Once this threshold is reached, new events are sent at the exact defined frequency.
+    #burstSize: 10000
+    ## Maximum number of events that can be sent concurrently. When this threshold is reached, new events that are received are rejected.
+    #maxConcurrentHandlers: 50000
+
+  ## WebHook handler settings
+  webhooks:
+    ## timeout specifies a time limit for requests.
+    ## The timeout includes connection time, any redirects, and reading the response body.
+    ## The timer remains running after request return and will interrupt reading of the response body.
+    ## A timeout of zero means no timeout.
+    #timeout: 30s
+    ## Controls the maximum number of idle (keep-alive) connections across all hosts.
+    ## Zero means no limit
+    #maxIdleConnections: 100
+    ## If non-zero, controls the maximum idle (keep-alive) connections to keep per-host.
+    ## 0 means system default (2).
+    #maxIdleConnectionsPerHost: 100
+    ## Controls whether a client verifies the server's certificate chain and host name.
+    ## If true, TLS accepts any certificate presented by the server and any host name
+    ## in that certificate. In this mode, TLS is susceptible to man-in-the-middle attacks.
+    ## This should be used only for testing.
+    #tlsInsecure: false
+    ## Number of retry that will be done when event service is unable to send the request or when it receives an error
+    ## (>= 500) from the server. The first try count as one
+    #retryCount: 5
+    ## Time in second event service will wait between 2 retries
+    #retryWait: 10s

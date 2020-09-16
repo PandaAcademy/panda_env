@@ -1,15 +1,15 @@
 endpoints:
-- paths:
-  - match: /artifactory
-    replace: ""
-  - match: /artifactory/(.*)
-    replace: ""
-  - match: /v2/(.*)
-    replace: ""
-  port: 8081
-  protocol: 1
+  - paths:
+      - match: /artifactory
+        replace: ""
+      - match: /artifactory/(.*)
+        replace: ""
+      - match: /v2/(.*)
+        replace: ""
+    port: 8081
+    protocol: 1
 healthcheckendpoint:
-  path: /artifactory/api/system/ping?skipLicenseCheck=true
-  port: 8091
-nodeid: 13af29d5bfc0
+    path: /artifactory/api/system/ping?skipLicenseCheck=true
+    port: 8091
+nodeid: 97de886ddbba
 serviceid: jfrt@01e6gkzhtba2gz14rj5jrj009s

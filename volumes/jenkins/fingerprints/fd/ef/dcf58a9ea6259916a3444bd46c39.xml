@@ -8,6 +8,10 @@
       <string>App</string>
       <ranges>2-5</ranges>
     </entry>
+    <entry>
+      <string>PandaAppPipeline</string>
+      <ranges>1-3</ranges>
+    </entry>
   </usages>
   <facets/>
 </fingerprint>

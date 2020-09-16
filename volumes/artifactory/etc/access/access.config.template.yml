@@ -9,6 +9,9 @@
 # 4. Restart Access
 ---
 security:
+  multi-factor-authentication:
+    authenticators: [] # list of available authentication providers. feature is disabled if unset
+    application-name: JFrog Platform  # app name to display in Authenticator App
   password-policy:    # users' password policy
     uppercase: 0      # minimum number of uppercase letters that the password must contain
     lowercase: 0      # minimum number of lowercase letters that the password must contain
@@ -26,6 +29,7 @@ security:
   local-interfaces-expire-in-seconds: 600 # number of seconds for which local server ips should be cached for users’ allowed-ips
   encryption-enabled: true  # specifies if users’ custom data encryption is allowed
   tls: false # When set to true, JFrog Access will act as the Certificate Authority (CA) and sign the TLS certificates used by all the different JFrog Platform nodes. This ensures that the node to node communication is done over TLS.
+  tls-minimal-version: TLS-1.2 # When set, node to node communication via TLS will support only TLS with version matching the minimal version and above
   topology-stale-millis: 30000  # The time passed from the last heartbeat of any of the micro-services in the topology, before it is considered stale
 token:
   refresh-expiry: 86400  # grace period (seconds) during which an expired token can still be refreshed
@@ -34,7 +38,9 @@ token:
     expire-after-write-seconds: 60  # number of seconds Access waits before deleting an entry from the cache
     maximum-size: 1000              # maximum number of tokens Access allows in the cache
   revocation:
-    minimum-revocable-expiry: -1  # (seconds) token with lifespan (issuedAt-expiry) below this value will not be revocable. (tokens without expiry are always revocable) set to -1 to make all tokens with expiry non-revocable (default).
+    minimum-revocable-expiry: -1  # (seconds) token with expiry (expirationTime-issuedAt) below this value will not be revocable. (tokens without expiry are always revocable) set to -1 to make all tokens with expiry non-revocable (default).
+  persistency:
+    persistent-expiry-threshold: 10800 # (seconds) token with expiry (expirationTime-issuedAt) below this value will not be persistent. set to -1 to make all tokens persistent. lowering this value will effectively revoke all tokens with expiry below the old value and above the new revocable-expiry-threshold.
   delete-with-user: true # if should delete user tokens when deleting user.
   block-simultaneous-login: false # when set to true, Access will revoke User's session tokens when a new session token is created for the same user
 task:
@@ -99,13 +105,18 @@ federation:
   inbound:                # inbound configuration specifies receiving data
     number-of-retries: 3  # number of retries to consume the incoming data
     service-id-mapping:
-    - from: jfrt@1234567890abcdef    # service id to change from for permissions and tokens
-      to: jfrt@fedcba0987654321      # service id to change to
-    - from: jfbt@abcdefabcdefabcdef  # any number of server mappings can be specified
-      to: jfbt@aaaaaaaaaaaaaaaaa
+      - from: jfrt@1234567890abcdef    # service id to change from for permissions and tokens
+        to: jfrt@fedcba0987654321      # service id to change to
+      - from: jfbt@abcdefabcdefabcdef  # any number of server mappings can be specified
+        to: jfbt@aaaaaaaaaaaaaaaaa
     backoff-max-delay-millis: 30000   # maximum time between successive retries regardless of other settings
     exponential-backoff-multiplier: 2 # number by which the retry timeout should be multiplied before a subsequent retry. For example, by default, the third retry will happen after 6000 ms
     timeout-millis: 1000              # initial wait between retries
+    permissions-resource-rename:
+      - filter: "^docker-([A-Z]*)$"   # pattern that will try to match the repository keys on incommming permission change
+        map: "CN"                     # replacement for the capturing group of the regex
+      - filter: "^mvn-([A-Z]*)$"
+        map:                          # empty will remove the capturing group
 proxy:
   host: "localhost"     # proxy's host
   port: 4567            # proxy's port

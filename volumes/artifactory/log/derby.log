@@ -1,33 +1,33 @@
 ----------------------------------------------------------------
-Wed May 13 11:49:36 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0172-0dde-5b1d-00001b600000 
-on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@7791a895 
+Wed Sep 16 16:46:10 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0174-97cf-288d-00001bf52f10 
+on database directory /var/opt/jfrog/artifactory/data/artifactory/derby with class loader java.net.URLClassLoader@6325a3ee 
 Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
 java.vendor=AdoptOpenJDK
-java.runtime.version=11.0.6+10
+java.runtime.version=11.0.7+10
 user.dir=/var/opt/jfrog/artifactory
 os.name=Linux
 os.arch=amd64
-os.version=5.3.0-51-generic
+os.version=4.15.0-101-generic
 derby.system.home=null
 derby.stream.error.file=/opt/jfrog/artifactory/var/log/derby.log
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Wed May 13 11:49:48 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance e1734037-0172-0dde-5b1d-00001b600000 
-on database directory /var/opt/jfrog/artifactory/data/access/derby with class loader java.net.URLClassLoader@7791a895 
+Wed Sep 16 16:46:18 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance b9810038-0174-97cf-288d-00001bf52f10 
+on database directory /var/opt/jfrog/artifactory/data/access/derby with class loader java.net.URLClassLoader@6325a3ee 
 Loaded from file:/opt/jfrog/artifactory/app/artifactory/tomcat/lib/derby-10.14.2.0.jar
 java.vendor=AdoptOpenJDK
-java.runtime.version=11.0.6+10
+java.runtime.version=11.0.7+10
 user.dir=/var/opt/jfrog/artifactory
 os.name=Linux
 os.arch=amd64
-os.version=5.3.0-51-generic
+os.version=4.15.0-101-generic
 derby.system.home=null
 derby.stream.error.file=/opt/jfrog/artifactory/var/data/access/derbyderby.log
 Database Class Loader started - derby.database.classpath=''
-Wed May 13 11:49:58 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 51312), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Cleanup action starting
-Wed May 13 11:49:58 GMT 2020 Thread[localhost-startStop-2,5,main] (XID = 51312), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1589370598589 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
+Wed Sep 16 16:46:25 GMT 2020 Thread[localhost-startStop-1,5,main] (XID = 56099), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Cleanup action starting
+Wed Sep 16 16:46:25 GMT 2020 Thread[localhost-startStop-1,5,main] (XID = 56099), (SESSIONID = 1), (DATABASE = /opt/jfrog/artifactory/var/data/access/derby), (DRDAID = null), Failed Statement is: INSERT INTO access_configs (config_name, modified, data) VALUES (?, ?, ?) with 3 parameters begin parameter #1: shared.security.joinKey :end parameter begin parameter #2: 1600274785704 :end parameter begin parameter #3: BLOB:Length=93 :end parameter 
 ERROR 23505: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'ACCESS_CONFIGS_PK' defined on 'ACCESS_CONFIGS'.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -44,14 +44,11 @@ ERROR 23505: The statement was aborted because it would have caused a duplicate 
 	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeLargeUpdate(Unknown Source)
 	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeUpdate(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
-	at com.sun.proxy.$Proxy95.executeUpdate(Unknown Source)
-	at org.jfrog.storage.JdbcHelper.executeUpdate(JdbcHelper.java:229)
-	at org.jfrog.access.server.db.util.AccessJdbcHelperImpl.executeUpdate(AccessJdbcHelperImpl.java:104)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.jfrog.storage.JdbcHelper.executeUpdate(JdbcHelper.java:163)
+	at org.jfrog.storage.JdbcHelper.executeUpdate(JdbcHelper.java:138)
+	at org.jfrog.access.server.db.util.AccessJdbcHelperImpl.executeUpdate(AccessJdbcHelperImpl.java:106)
 	at org.jfrog.access.server.db.dao.AccessConfigsDao.createConfig(AccessConfigsDao.java:59)
 	at org.jfrog.access.server.db.dao.AccessConfigsDao$$FastClassBySpringCGLIB$$a31fa086.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
@@ -60,10 +57,10 @@ ERROR 23505: The statement was aborted because it would have caused a duplicate 
 	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$3310d16.createConfig(<generated>)
-	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKeyToDb(JoinKeyAccess.java:179)
-	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKey(JoinKeyAccess.java:85)
-	at org.jfrog.access.server.startup.JoinKeyAccess.resolveJoinKey(JoinKeyAccess.java:79)
+	at org.jfrog.access.server.db.dao.AccessConfigsDao$$EnhancerBySpringCGLIB$$cf216696.createConfig(<generated>)
+	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKeyToDb(JoinKeyAccess.java:181)
+	at org.jfrog.access.server.startup.JoinKeyAccess.saveJoinKey(JoinKeyAccess.java:86)
+	at org.jfrog.access.server.startup.JoinKeyAccess.resolveJoinKey(JoinKeyAccess.java:80)
 	at io.vavr.control.Try.of(Try.java:75)
 	at org.jfrog.access.server.startup.JoinKeyAccess.init(JoinKeyAccess.java:66)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -92,13 +89,13 @@ ERROR 23505: The statement was aborted because it would have caused a duplicate 
 	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
 	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:91)
 	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5225)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:744)
-	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:624)
-	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1833)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5144)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:614)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1822)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
