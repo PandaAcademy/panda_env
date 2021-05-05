@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<config xmlns="http://artifactory.jfrog.org/xsd/3.0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.jfrog.org/xsd/artifactory-v3_0_5.xsd">
+<config xmlns="http://artifactory.jfrog.org/xsd/3.1.11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.jfrog.org/xsd/artifactory-v3_1_11.xsd">
     <offlineMode>false</offlineMode>
+    <archiveIndexEnabled>true</archiveIndexEnabled>
     <helpLinksEnabled>true</helpLinksEnabled>
     <fileUploadMaxSizeMb>100</fileUploadMaxSizeMb>
     <revision>1</revision>
@@ -34,6 +35,7 @@
         <accessClientSettings/>
         <buildGlobalBasicReadAllowed>false</buildGlobalBasicReadAllowed>
         <buildGlobalBasicReadForAnonymous>false</buildGlobalBasicReadForAnonymous>
+        <basicAuthEnabled>true</basicAuthEnabled>
     </security>
     <backups>
         <backup>
@@ -81,12 +83,14 @@
             <suppressPomConsistencyChecks>true</suppressPomConsistencyChecks>
             <propertySets/>
             <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
+            <priorityResolution>false</priorityResolution>
             <snapshotVersionBehavior>unique</snapshotVersionBehavior>
             <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
             <calculateYumMetadata>false</calculateYumMetadata>
             <yumRootDepth>0</yumRootDepth>
             <debianTrivialLayout>false</debianTrivialLayout>
             <enableFileListsIndexing>false</enableFileListsIndexing>
+            <dockerTagRetention>1</dockerTagRetention>
         </localRepository>
         <localRepository>
             <key>generic-local</key>
@@ -104,12 +108,14 @@
             <suppressPomConsistencyChecks>true</suppressPomConsistencyChecks>
             <propertySets/>
             <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
+            <priorityResolution>false</priorityResolution>
             <snapshotVersionBehavior>unique</snapshotVersionBehavior>
             <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
             <calculateYumMetadata>false</calculateYumMetadata>
             <yumRootDepth>0</yumRootDepth>
             <debianTrivialLayout>false</debianTrivialLayout>
             <enableFileListsIndexing>false</enableFileListsIndexing>
+            <dockerTagRetention>1</dockerTagRetention>
         </localRepository>
         <localRepository>
             <key>libs-release-local</key>
@@ -127,12 +133,14 @@
             <suppressPomConsistencyChecks>false</suppressPomConsistencyChecks>
             <propertySets/>
             <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
+            <priorityResolution>false</priorityResolution>
             <snapshotVersionBehavior>unique</snapshotVersionBehavior>
             <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
             <calculateYumMetadata>false</calculateYumMetadata>
             <yumRootDepth>0</yumRootDepth>
             <debianTrivialLayout>false</debianTrivialLayout>
             <enableFileListsIndexing>false</enableFileListsIndexing>
+            <dockerTagRetention>1</dockerTagRetention>
         </localRepository>
         <localRepository>
             <key>libs-snapshot-local</key>
@@ -150,12 +158,14 @@
             <suppressPomConsistencyChecks>false</suppressPomConsistencyChecks>
             <propertySets/>
             <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
+            <priorityResolution>false</priorityResolution>
             <snapshotVersionBehavior>unique</snapshotVersionBehavior>
             <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
             <calculateYumMetadata>false</calculateYumMetadata>
             <yumRootDepth>0</yumRootDepth>
             <debianTrivialLayout>false</debianTrivialLayout>
             <enableFileListsIndexing>false</enableFileListsIndexing>
+            <dockerTagRetention>1</dockerTagRetention>
         </localRepository>
     </localRepositories>
     <remoteRepositories>
@@ -175,6 +185,7 @@
             <suppressPomConsistencyChecks>false</suppressPomConsistencyChecks>
             <propertySets/>
             <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
+            <priorityResolution>false</priorityResolution>
             <url>https://jcenter.bintray.com</url>
             <offline>false</offline>
             <hardFail>false</hardFail>
@@ -245,11 +256,13 @@
             <debianDefaultArchitectures>i386,amd64</debianDefaultArchitectures>
         </virtualRepository>
     </virtualRepositories>
+    <federatedRepositories/>
     <distributionRepositories/>
     <releaseBundlesRepositories/>
     <proxies/>
     <reverseProxies/>
     <propertySets/>
+    <systemProperties/>
     <repoLayouts>
         <repoLayout>
             <name>maven-2-default</name>
@@ -335,7 +348,7 @@
         </repoLayout>
         <repoLayout>
             <name>conan-default</name>
-            <artifactPathPattern>[org]/[module]/[baseRev]/[channel&lt;[^/]+&gt;]/[folderItegRev]/(package/[package_id&lt;[^/]+&gt;]/[fileItegRev]/)?[remainder&lt;(?:.+)&gt;]</artifactPathPattern>
+            <artifactPathPattern>[org]/[module]/[baseRev]/[channel&lt;[^/]+&gt;]/[folderItegRev]/(package/[package_id&lt;[^/]+&gt;]/[fileItegRev]/)[remainder&lt;(?:.+)&gt;]</artifactPathPattern>
             <distinctiveDescriptorPathPattern>false</distinctiveDescriptorPathPattern>
             <folderIntegrationRevisionRegExp>[^/]+</folderIntegrationRevisionRegExp>
             <fileIntegrationRevisionRegExp>[^/]+</fileIntegrationRevisionRegExp>
@@ -361,6 +374,13 @@
             <folderIntegrationRevisionRegExp>.*</folderIntegrationRevisionRegExp>
             <fileIntegrationRevisionRegExp>.*</fileIntegrationRevisionRegExp>
         </repoLayout>
+        <repoLayout>
+            <name>cargo-default</name>
+            <artifactPathPattern>crates/[module]/[module]-[baseRev].[ext]</artifactPathPattern>
+            <distinctiveDescriptorPathPattern>false</distinctiveDescriptorPathPattern>
+            <folderIntegrationRevisionRegExp>.*</folderIntegrationRevisionRegExp>
+            <fileIntegrationRevisionRegExp>.*</fileIntegrationRevisionRegExp>
+        </repoLayout>
     </repoLayouts>
     <remoteReplications/>
     <localReplications/>
@@ -379,6 +399,7 @@
         <maxDownloadSizeMb>1024</maxDownloadSizeMb>
         <maxFiles>5000</maxFiles>
         <maxConcurrentRequests>10</maxConcurrentRequests>
+        <enabledEmptyDirectories>false</enabledEmptyDirectories>
     </folderDownloadConfig>
     <trashcanConfig>
         <enabled>true</enabled>

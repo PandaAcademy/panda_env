@@ -452,3 +452,66 @@ Port                                                 | 8086
 2020-09-16T16:46:33.639Z [jfmd ] [INFO ] [6d3a158d6cd7ce95] [router_middlewares.go:58      ] [main                ] - Metadata (jfmd) service initialization completed in 29.288 seconds. Listening on port: 8086 [router]
 2020-09-16T17:37:23.960Z [jfmd ] [INFO ] [63390912f40b5919] [database_bearer.go:307        ] [main                ] - Slow statement detected (9.418619557s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
 2020-09-16T17:37:47.826Z [jfmd ] [INFO ] [63390912f40b5919] [database_bearer.go:307        ] [main                ] - Slow statement detected (8.28506724s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
+2021-05-05T12:31:05.058Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [database_bearer.go:100        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2021-05-05T12:31:05.084Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:60                ] [main                ] - Applying 45 migrations files [database]
+2021-05-05T12:31:05.101Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:221               ] [main                ] - Migration v042_async_data_converter.sql successfully applied (5 statements) [database]
+2021-05-05T12:31:05.125Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:221               ] [main                ] - Migration v043_add_mark_for_deletion.sql successfully applied (3 statements) [database]
+2021-05-05T12:31:05.136Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:221               ] [main                ] - Migration v044_add_dependant_task.sql successfully applied (1 statements) [database]
+2021-05-05T12:31:05.138Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:221               ] [main                ] - Migration v045_delete_reorder_prerelease_version_task.sql successfully applied (1 statements) [database]
+2021-05-05T12:31:05.180Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:221               ] [main                ] - Migration v046_add_cvss3.sql successfully applied (2 statements) [database]
+2021-05-05T12:31:05.194Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:221               ] [main                ] - Migration v047_reorder_task_temp_table.sql successfully applied (2 statements) [database]
+2021-05-05T12:31:05.255Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [migrator.go:69                ] [main                ] - Applied 14 database migrations statements in 171.722764ms seconds [database]
+2021-05-05T12:31:05.756Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [application.go:68             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.18.2 Revision: 6804b8fc8cc PID: 3977 Home: /opt/jfrog/artifactory/var [app_initializer]
+2021-05-05T12:31:05.758Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [server_bearer.go:169          ] [main                ] - Got service_id from datastore: jfmd@01e6gkz74qm614k82x689eq128 [ServerInit]
+2021-05-05T12:31:09.798Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [accessclient.go:57            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-05T12:31:14.813Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [accessclient.go:57            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-05T12:31:19.837Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [accessclient.go:57            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-05T12:31:24.850Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [accessclient.go:57            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2021-05-05T12:31:29.867Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [accessclient.go:57            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2021-05-05T12:31:31.898Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [accessclient.go:57            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2021-05-05T12:31:31.898Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [accessclient.go:57            ] [main                ] - Cluster join: executing Router register at: localhost:8046 for service id jfmd@01e6gkz74qm614k82x689eq128 [access_client]
+2021-05-05T12:31:31.980Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [router_middlewares.go:55      ] [main                ] - 
+Metadata Info
+========================
+
+Shared.NewRelic.Enabled                              | false
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Request.Rotation.MaxFiles                    | 10
+Keys.ReadAttempts                                    | 120
+Keys.ReadIntervalDuration                            | 1s
+Port                                                 | 8086
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Database.Type                                        | 1
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Logging.Request.Rotation.Compress                    | true
+AccessClient.Url                                     | http://localhost:8081/access
+AccessClient.JoinTimeout                             | 3m0s
+Profiling.Enabled                                    | false
+Shared.NewRelic.AppName                              | 
+Logging.Application.Level                            | info
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.IntervalSeconds             | 0
+
+2021-05-05T12:31:31.981Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [router_middlewares.go:56      ] [main                ] - Metadata (jfmd) service initialization completed in 26.224 seconds. Listening on port: 8086 [router]
+2021-05-05T12:31:31.981Z [jfmd ] [INFO ] [6e74d94fbdf5c3e6] [async_converter.go:195        ] [main                ] - Starting async converter routine [async_converter] [workerNumber][1]
+2021-05-05T12:31:36.078Z [jfmd ] [WARN ] [6e74d94fbdf5c3e6] [versions_package_id_ordinal_in] [main                ] - Running DB indexes maintenance in the background, it might cause some slowness in the Metadata service [BatchEndKey][1] [BatchKey][versionsPackageIdOrdinalIndexTask] [BatchStartKey][0] [versions_package_id_ordinal_index_task] [workerNumber][1]
+2021-05-05T12:31:36.081Z [jfmd ] [WARN ] [6e74d94fbdf5c3e6] [versions_package_id_ordinal_in] [main                ] - Finished with DB indexes background maintenance, Metadata service is back to normal [BatchEndKey][1] [BatchKey][versionsPackageIdOrdinalIndexTask] [BatchStartKey][0] [versions_package_id_ordinal_index_task] [workerNumber][1]
+2021-05-05T12:53:33.331Z [jfmd ] [INFO ] [df1dbe046e7de2fe] [path_service.go:61            ] [main                ] - Deleting versions 1 for path pl/pandait/panda/0.0.2-SNAPSHOT/panda-0.0.2-20200916.173828-1.pom [path_service]
+2021-05-05T12:53:33.348Z [jfmd ] [INFO ] [df1dbe046e7de2fe] [path_service.go:61            ] [main                ] - Deleting versions 1 for path pl/pandait/panda-application/0.0.2-SNAPSHOT/panda-application-0.0.2-20200513.121249-1.pom [path_service]
+2021-05-05T12:53:35.796Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:35.800Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:35.807Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:35.811Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:35.812Z [jfmd ] [ERROR] [11d25e80f5988efc] [server_bearer.go:127          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:40.795Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:40.799Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:40.802Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:40.806Z [jfmd ] [INFO ] [11d25e80f5988efc] [server_bearer.go:136          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2021-05-05T12:53:40.807Z [jfmd ] [ERROR] [11d25e80f5988efc] [server_bearer.go:127          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]

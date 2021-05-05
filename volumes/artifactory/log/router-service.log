@@ -138,3 +138,29 @@ shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.
 ###############################################################
 ###   All services started successfully in 44.626 seconds   ###
 ###############################################################
+2021-05-05T12:31:04.772Z [jfrou] [INFO ] [4da273cc05fe4a01] [bootstrap.go:76               ] [main                ] - Router (jfrou) service initialization started. Version: 7.18.2-1 Revision: 6804b8fc8cccabfa14876d26a92e2fa20a59e232 PID: 3832 Home: /opt/jfrog/artifactory
+2021-05-05T12:31:04.774Z [jfrou] [INFO ] [4da273cc05fe4a01] [bootstrap.go:79               ] [main                ] - JFrog Router IP: 172.18.0.4
+2021-05-05T12:31:04.775Z [jfrou] [INFO ] [4da273cc05fe4a01] [bootstrap.go:192              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2021-05-05T12:31:04.779Z [jfrou] [INFO ] [4da273cc05fe4a01] [bootstrap.go:84               ] [main                ] - JFrog Router Service ID: jfrou@01e6gkz5mj75e8whsva5r4rjc6
+2021-05-05T12:31:04.779Z [jfrou] [INFO ] [4da273cc05fe4a01] [bootstrap.go:85               ] [main                ] - JFrog Router Node ID: 71e9048eeaf5
+2021-05-05T12:31:04.816Z [jfrou] [INFO ] [4da273cc05fe4a01] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2021-05-05T12:31:04.856Z [jfrou] [INFO ] [4da273cc05fe4a01] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2021-05-05T12:31:06.766Z [jfrou] [INFO ] [4da273cc05fe4a01] [config_holder.go:107          ] [main                ] - Configuration update detected
+2021-05-05T12:31:27.963Z [jfrou] [INFO ] [4da273cc05fe4a01] [join_executor.go:116          ] [main                ] - Cluster join: Trying to rejoin the cluster
+2021-05-05T12:31:28.631Z [jfrou] [INFO ] [4da273cc05fe4a01] [join_executor.go:205          ] [main                ] - Cluster join: Successfully joined the cluster
+2021-05-05T12:31:29.138Z [jfrou] [INFO ] [4da273cc05fe4a01] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2021-05-05T12:31:29.139Z [jfrou] [INFO ] [4da273cc05fe4a01] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2021-05-05T12:31:29.163Z [jfrou] [INFO ] [4da273cc05fe4a01] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 24.399 seconds. Listening on port: 8082
+2021-05-05T12:31:44.184Z [jfrou] [INFO ] [58d014793856cd86] [local_topology.go:258         ] [main                ] - 
+###############################################################
+###   All services started successfully in 39.419 seconds   ###
+###############################################################
+2021-05-05T12:53:36.780Z [jfrou] [ERROR] [65d05fdf33597c66] [routing_handler.go:239        ] [main                ] - Failed reading current external routes from file: /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
+2021-05-05T12:53:36.781Z [jfrou] [ERROR] [65d05fdf33597c66] [external_topology.go:96       ] [main                ] - Failed updating external topology routing rules: failed performing atomic write to file: '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'; failed renaming file '/tmp/router396845337' to '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'. error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
+2021-05-05T12:53:39.769Z [jfrou] [ERROR] [455402a94a816d84] [routing_handler.go:239        ] [main                ] - Failed reading current external routes from file: /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
+2021-05-05T12:53:39.769Z [jfrou] [ERROR] [455402a94a816d84] [external_topology.go:96       ] [main                ] - Failed updating external topology routing rules: failed performing atomic write to file: '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'; failed renaming file '/tmp/router157817252' to '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'. error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
+2021-05-05T12:53:40.046Z [jfrou] [ERROR] [2b8cdcb9b35263ee] [local_topology.go:261         ] [main                ] - Failed creating unhealthy node routing rule, incoming requests will be routed to local services

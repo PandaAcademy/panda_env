@@ -1,0 +1,66 @@
+# This template is used to create routing rules for Traefik
+# References: https://docs.traefik.io/configuration/backends/file/
+#             https://docs.traefik.io/basics/#frontends
+#             https://docs.traefik.io/basics/#backends
+
+[frontends]
+
+
+
+  [frontends.jffe_000-71e9048eeaf5-0-rule0-internal]
+    entryPoints = ["internal"]
+    backend = "jffe_000-71e9048eeaf5-0"
+
+    [frontends.jffe_000-71e9048eeaf5-0-rule0-internal.routes.match]
+      rule = "PathPrefixStrip: /ui/"
+
+
+  [frontends.jffe_000-71e9048eeaf5-0-rule0-external]
+    entryPoints = ["external"]
+    backend = "jffe_000-71e9048eeaf5-0"
+
+    [frontends.jffe_000-71e9048eeaf5-0-rule0-external.routes.match]
+      rule = "PathPrefixStrip: /ui/"
+
+
+
+  [frontends.jffe_000-71e9048eeaf5-0-rule1-internal]
+    entryPoints = ["internal"]
+    backend = "jffe_000-71e9048eeaf5-0"
+
+    [frontends.jffe_000-71e9048eeaf5-0-rule1-internal.routes.match]
+      rule = "PathStrip: /ui"
+
+
+  [frontends.jffe_000-71e9048eeaf5-0-rule1-external]
+    entryPoints = ["external"]
+    backend = "jffe_000-71e9048eeaf5-0"
+
+    [frontends.jffe_000-71e9048eeaf5-0-rule1-external.routes.match]
+      rule = "PathStrip: /ui"
+
+
+
+  [frontends.jffe_000-71e9048eeaf5-0-rule2-internal]
+    entryPoints = ["internal"]
+    backend = "jffe_000-71e9048eeaf5-0"
+
+    [frontends.jffe_000-71e9048eeaf5-0-rule2-internal.routes.match]
+      rule = "Path: /"
+
+
+  [frontends.jffe_000-71e9048eeaf5-0-rule2-external]
+    entryPoints = ["external"]
+    backend = "jffe_000-71e9048eeaf5-0"
+
+    [frontends.jffe_000-71e9048eeaf5-0-rule2-external.routes.match]
+      rule = "Path: /"
+
+
+
+[backends]
+
+  [backends.jffe_000-71e9048eeaf5-0]
+    [backends.jffe_000-71e9048eeaf5-0.servers.server1]
+      url = "http://localhost:8070"
+

@@ -6,14 +6,13 @@ Build-Jdk: 1.8.0_211
 Extension-Name: pipeline-utility-steps
 Specification-Title: The Jenkins Plugins Parent POM Project
 Implementation-Title: pipeline-utility-steps
-Implementation-Version: 2.5.0
+Implementation-Version: 2.7.1
 Group-Id: org.jenkins-ci.plugins
 Short-Name: pipeline-utility-steps
 Long-Name: Pipeline Utility Steps
-Url: https://wiki.jenkins.io/display/JENKINS/Pipeline+Utility+Steps+Pl
- ugin
+Url: https://github.com/jenkinsci/pipeline-utility-steps-plugin
 Minimum-Java-Version: 1.8
-Plugin-Version: 2.5.0
+Plugin-Version: 2.7.1
 Hudson-Version: 2.121.2
 Jenkins-Version: 2.121.2
 Plugin-Dependencies: workflow-api:2.31,workflow-cps:2.58;resolution:=o

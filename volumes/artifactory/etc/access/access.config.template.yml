@@ -10,9 +10,9 @@
 ---
 security:
   multi-factor-authentication:
-    authenticators: [] # list of available authentication providers. feature is disabled if unset
+    authenticators: [ ] # list of available authentication providers. feature is disabled if unset
     application-name: JFrog Platform  # app name to display in Authenticator App
-  password-policy:    # users' password policy
+  password-policy: # users' password policy
     uppercase: 0      # minimum number of uppercase letters that the password must contain
     lowercase: 0      # minimum number of lowercase letters that the password must contain
     digit: 0          # minimum number of digits that the password must contain
@@ -31,6 +31,7 @@ security:
   tls: false # When set to true, JFrog Access will act as the Certificate Authority (CA) and sign the TLS certificates used by all the different JFrog Platform nodes. This ensures that the node to node communication is done over TLS.
   tls-minimal-version: TLS-1.2 # When set, node to node communication via TLS will support only TLS with version matching the minimal version and above
   topology-stale-millis: 30000  # The time passed from the last heartbeat of any of the micro-services in the topology, before it is considered stale
+  secrets-require-tls: true # if true then tls must be enabled in order to store sensitive configuration (like vault config)
 token:
   refresh-expiry: 86400  # grace period (seconds) during which an expired token can still be refreshed
   default-expiry: 3600   # default expiry period (seconds) when token expiry is set to null
@@ -38,13 +39,15 @@ token:
     expire-after-write-seconds: 60  # number of seconds Access waits before deleting an entry from the cache
     maximum-size: 1000              # maximum number of tokens Access allows in the cache
   revocation:
-    minimum-revocable-expiry: -1  # (seconds) token with expiry (expirationTime-issuedAt) below this value will not be revocable. (tokens without expiry are always revocable) set to -1 to make all tokens with expiry non-revocable (default).
+    minimum-revocable-expiry: 21600    # DEPRECATED - Please use 'revocable-expiry-threshold' instead - (seconds) token with expiry (expirationTime-issuedAt) below this value will not be revocable. (tokens without expiry are always revocable) set to -1 to make all tokens with expiry non-revocable (default).
+    revocable-expiry-threshold: 21600  # Available from Artifactory 7.8.0 - (seconds) token with expiry (expirationTime-issuedAt) below this value will not be revocable. (tokens without expiry are always revocable) set to -1 to make all tokens with expiry non-revocable (default).
   persistency:
-    persistent-expiry-threshold: 10800 # (seconds) token with expiry (expirationTime-issuedAt) below this value will not be persistent. set to -1 to make all tokens persistent. lowering this value will effectively revoke all tokens with expiry below the old value and above the new revocable-expiry-threshold.
+    persistent-expiry-threshold: 10800 # Available from Artifactory 7.8.0 - (seconds) token with expiry (expirationTime-issuedAt) below this value will not be persistent. set to -1 to make all tokens persistent. lowering this value will effectively revoke all tokens with expiry below the old value and above the new revocable-expiry-threshold.
   delete-with-user: true # if should delete user tokens when deleting user.
   block-simultaneous-login: false # when set to true, Access will revoke User's session tokens when a new session token is created for the same user
 task:
   revoke-expired-tokens-cron: "0 0 0/1 * * ?"  # cron expression defining when the "revoke expired token" job should run
+  send-usage-cron: "0 0 23 * * ?"  # cron expression defining when the "send usage" job should run
   heartbeat:
     interval-seconds: 5         # interval between successive runs of the heartbeat job
     consider-stale-seconds: 30  # the time period (seconds) a server can remain unresponsive before being considered stale in the cluster
@@ -54,24 +57,31 @@ task:
   load-certificates-seconds: 30 # period of time in seconds when to look if there are any new "trusted certificates"
 cluster:
   sync:
-    timeout-millis: 100                # initial time (ms) to wait before retrying a request
-    socket-timeout-millis: 5000        # time to wait (ms) before giving up on executing a REST call on another server
-    exponential-backoff-multiplier: 2  # number by which the retry timeout should be multiplied before a subsequent retry. For example, by default, the third retry will happen after 200 ms
-    number-of-retries: 3               # maximum number of retries
-    backoff-max-delay-millis: 1000     # maximum time between successive retries regardless of other settings
-    force-rest: false                  # whether to force rest in grpc sync
-    force-grpc: false                  # whether to force grpc in grpc sync when syncing over https
-    startup-sanity-retry: 200           # maximum number of retries for validating self ping via router
+    timeout-millis: 100                     # initial time (ms) to wait before retrying a request
+    socket-timeout-millis: 5000             # time to wait (ms) before giving up on executing a REST call on another server
+    exponential-backoff-multiplier: 2       # number by which the retry timeout should be multiplied before a subsequent retry. For example, by default, the third retry will happen after 200 ms
+    number-of-retries: 3                    # maximum number of retries
+    backoff-max-delay-millis: 1000          # maximum time between successive retries regardless of other settings
+    force-rest: false                       # whether to force rest in grpc sync
+    force-grpc: false                       # whether to force grpc in grpc sync when syncing over https
+    startup-sanity-retry: 200               # maximum number of retries for validating self ping via router
+    maximum-future-time-diff-millis: 60000  # maximum difference between previous data timestamp and received data timestamp that is allowed 
   join:
     router-check-url-timeout-millis: 3000 # connection timeout (ms) for validating router responsiveness in url 'check-url'
+project:
+  cache:
+    expire-after-write-seconds: 3600 # number of seconds Access waits before deleting an entry from the cache
+    maximum-size: 10000              # maximum number of entries allows in the cache
+  socket-timeout-millis: 10000       # time to wait (ms) before giving up on executing a REST call on another server
+  connect-timeout-millis: 10000      # time to wait (ms) before giving up on connecting to another server
 federation:
-  outbound:                    # outbound configuration specifies parameters for sending data
-    entity-types-to-sync:      # entity types to sync as part of federation (default - used if not configured for server)
+  outbound: # outbound configuration specifies parameters for sending data
+    entity-types-to-sync: # entity types to sync as part of federation (default - used if not configured for server)
       - users
       - groups
       - permissions
       - tokens
-    exclude-users: ["access-admin"] # do not put this user in the federated server (must be an array)
+    exclude-users: [ "admin","access-admin","xray" ] # do not put this user in the federated server (must be an array)
     buffer-wait-millis: 30000  # amount of time (ms) data should be accumulated before being sent
     buffer-max-size: 500       # maximum number of events that can be accumulated before triggering sending of data
     consider-stale-hours: 168  # time (hours) server can remain unresponsive before being considered stale
@@ -89,20 +99,21 @@ federation:
       - name: hello-1                    # the name of the target server
         url: "http:#example.com/access"  # the target server url
         active: true                     # whether the federation to this server is enabled or not
-        entity-types-to-sync:            # entity types to sync as part of federation. if not configured - fallback to outbound entity types to sync
-        - users
-        - groups
-        - permissions
-        - tokens
-        permission-filters:             # include and exclude patterns filtering permissions to federate per server
+        entity-types-to-sync: # entity types to sync as part of federation. if not configured - fallback to outbound entity types to sync
+          - users
+          - groups
+          - permissions
+          - tokens
+        permission-filters: # include and exclude patterns filtering permissions to federate per server
           include-patterns:
             - ".*a.*"
             - ".*b.*"
           exclude-patterns:
             - ".*aa.*"
-#      - name: hello-2                    # you can configure any number of target servers
-#        url: "http:#example2.com/access"
-  inbound:                # inbound configuration specifies receiving data
+        force-override: true            # if true then the target (if access >= v7.8 or >= 6.21.1) will always erase local changes even if updated
+  #      - name: hello-2                    # you can configure any number of target servers
+  #        url: "http:#example2.com/access"
+  inbound: # inbound configuration specifies receiving data
     number-of-retries: 3  # number of retries to consume the incoming data
     service-id-mapping:
       - from: jfrt@1234567890abcdef    # service id to change from for permissions and tokens
@@ -122,9 +133,9 @@ proxy:
   port: 4567            # proxy's port
 db:
   batch-size: 2000
-licenses:               # should only be set by Artifactory
+licenses: # should only be set by Artifactory
   - server-name: "hello"
-    key:         "veryLongLicense"
+    key: "veryLongLicense"
 max-config-files-to-retain: 10  # maximum number of configuration file versions to save after being updated
-schema-version: 1         # internal for future use
-do-not-import-this-file   # Ignore: a marker to prevent import of this file
+schema-version: 2         # Mark the configuration schema version. If it's not the latest version, a migration operation will be performed.
+  do-not-import-this-file   # Ignore: a marker to prevent import of this file

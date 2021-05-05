@@ -36,10 +36,10 @@ shared:
   ## Node Settings
   node:
     ## A unique id to identify this node.
-    ## Default: auto generated at startup.
+    ## Default auto generated at startup.
     #id: "art1"
 
-    ## Default: auto resolved by startup script
+    ## Default auto resolved by startup script
     #ip:
 
     ## Sets this node as primary in HA installation
@@ -50,12 +50,12 @@ shared:
 
   ## Database Configuration
   database:
-    ## One of: mysql, oracle, mssql, postgresql, mariadb
-    ## Default: Embedded derby
+    ## One of mysql, oracle, mssql, postgresql, mariadb
+    ## Default Embedded derby
 
     ## Example for postgresql
     #type: postgresql
     #driver: org.postgresql.Driver
-    #url: jdbc:postgresql://<your db url, for example: localhost:5432>/artifactory
+    #url: "jdbc:postgresql://<your db url, for example: localhost:5432>/artifactory"
     #username: artifactory
     #password: password

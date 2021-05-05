@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- // @formatter:off -->
-<configuration debug="false">
-    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator"/>
+<!-- // @formatter:off --><configuration debug="false">
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator" />
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
             <layout class="org.jfrog.common.logging.logback.layout.BackTracePatternLayout">
@@ -50,35 +49,35 @@
     </appender>
 
     <root>
-        <level value="warn"/>
-        <appender-ref ref="CONSOLE"/>
-        <appender-ref ref="FILE"/>
+        <level value="warn" />
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
     </root>
 
     <!-- JFrog loggers -->
-    <logger name="org.artifactory" level="info"/>
-    <logger name="org.jfrog" level="info"/>
-    <logger name="org.artifactory.support" level="info"/>
-    <logger name="com.jfrog.bintray" level="info"/>
+    <logger name="org.artifactory" level="info" />
+    <logger name="org.jfrog" level="info" />
+    <logger name="org.artifactory.support" level="info" />
+    <logger name="com.jfrog.bintray" level="info" />
 
     <!-- third party loggers -->
-    <logger name="com.sun.jersey" level="warn"/>
-    <logger name="org.springframework" level="warn"/>
-    <logger name="org.apache.cxf" level="error"/>
+    <logger name="com.sun.jersey" level="warn" />
+    <logger name="org.springframework" level="warn" />
+    <logger name="org.apache.cxf" level="error" />
 
 
     <logger name="org.artifactory.traffic.RequestLogger" level="info" additivity="false">
-        <appender-ref ref="REQUEST"/>
+        <appender-ref ref="REQUEST" />
     </logger>
     <logger name="org.artifactory.security.AccessLogger" level="info" additivity="false">
-        <appender-ref ref="ACCESS"/>
+        <appender-ref ref="ACCESS" />
     </logger>
 
 
 
     <!-- specialized appenders -->
     <logger name="org.artifactory.info.InfoWriter" additivity="false">
-        <appender-ref ref="FILE"/>
+        <appender-ref ref="FILE" />
     </logger>
 
     <appender name="TRAFFIC" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -91,7 +90,7 @@
         </rollingPolicy>
     </appender>
     <logger name="org.artifactory.traffic.TrafficLogger" level="info" additivity="false">
-        <appender-ref ref="TRAFFIC"/>
+        <appender-ref ref="TRAFFIC" />
     </logger>
 
     <appender name="XRAY_TRAFFIC" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -104,7 +103,7 @@
         </rollingPolicy>
     </appender>
     <logger name="org.artifactory.traffic.XrayTrafficLogger" level="info" additivity="false">
-        <appender-ref ref="XRAY_TRAFFIC"/>
+        <appender-ref ref="XRAY_TRAFFIC" />
     </logger>
 
     <appender name="REQUEST_TRACE" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -120,7 +119,7 @@
         </triggeringPolicy>
     </appender>
     <logger name="org.artifactory.request.RequestTraceLogger" level="info" additivity="false">
-        <appender-ref ref="REQUEST_TRACE"/>
+        <appender-ref ref="REQUEST_TRACE" />
     </logger>
 
     <appender name="EVENT" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -136,7 +135,7 @@
         </triggeringPolicy>
     </appender>
     <logger name="events" level="warn" additivity="false">
-        <appender-ref ref="EVENT"/>
+        <appender-ref ref="EVENT" />
     </logger>
 
     <appender name="IMPORT_EXPORT" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -152,7 +151,7 @@
         </triggeringPolicy>
     </appender>
     <logger name="org.artifactory.api.common.ImportExportStatusHolder" level="debug" additivity="false">
-        <appender-ref ref="IMPORT_EXPORT"/>
+        <appender-ref ref="IMPORT_EXPORT" />
     </logger>
 
     <!--Binary store appender -->
@@ -171,7 +170,7 @@
         </triggeringPolicy>
     </appender>
     <logger name="org.jfrog.storage.binstore.servlet.security.BinaryStoreAccessLogger" level="info" additivity="false">
-        <appender-ref ref="BINARY_STORE"/>
+        <appender-ref ref="BINARY_STORE" />
     </logger>
 
     <appender name="SHA256_MIGRATION" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -189,7 +188,7 @@
         </triggeringPolicy>
     </appender>
     <logger name="org.artifactory.storage.jobs.migration.sha256.Sha256MigrationJob" level="info" additivity="false">
-        <appender-ref ref="SHA256_MIGRATION"/>
+        <appender-ref ref="SHA256_MIGRATION" />
     </logger>
 
     <appender name="PATH_CHECKSUM_MIGRATION" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -207,7 +206,7 @@
         </triggeringPolicy>
     </appender>
     <logger name="org.artifactory.storage.jobs.migration.pathchecksum.RepoPathChecksumMigrationJob" level="info" additivity="false">
-        <appender-ref ref="PATH_CHECKSUM_MIGRATION"/>
+        <appender-ref ref="PATH_CHECKSUM_MIGRATION" />
     </logger>
 
     <appender name="BUILD_INFO_MIGRATION" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -225,7 +224,7 @@
         </triggeringPolicy>
     </appender>
     <logger name="org.artifactory.storage.jobs.migration.buildinfo.BuildInfoMigrationJob" level="info" additivity="false">
-        <appender-ref ref="BUILD_INFO_MIGRATION"/>
+        <appender-ref ref="BUILD_INFO_MIGRATION" />
     </logger>
 
     <appender name="CONAN_V2_MIGRATION" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -242,8 +241,61 @@
             <MaxFileSize>10MB</MaxFileSize>
         </triggeringPolicy>
     </appender>
+    <appender name="METRICS-EVENTS-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${log.dir}/artifactory-metrics_events.log</File>
+        <rollingPolicy class="org.jfrog.common.logging.logback.rolling.FixedWindowWithDateRollingPolicy">
+            <FileNamePattern>${log.dir.archived}/artifactory-metrics_events.%i.log.gz</FileNamePattern>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>25MB</MaxFileSize>
+        </triggeringPolicy>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="org.jfrog.common.logging.logback.layout.BackTracePatternLayout">
+                <pattern>%m%n</pattern>
+            </layout>
+        </encoder>
+    </appender>
+    <appender name="METRICS-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${log.dir}/artifactory-metrics.log</File>
+        <rollingPolicy class="org.jfrog.common.logging.logback.rolling.FixedWindowWithDateRollingPolicy">
+            <FileNamePattern>${log.dir.archived}/artifactory-metrics.%i.log.gz</FileNamePattern>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>25MB</MaxFileSize>
+        </triggeringPolicy>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="org.jfrog.common.logging.logback.layout.BackTracePatternLayout">
+                <pattern>%m%n</pattern>
+            </layout>
+        </encoder>
+    </appender>
+    <appender name="TRAFFIC_V2" class="org.artifactory.traffic.TrafficTimeBasedRollingFileAppender">
+        <intervalMs>900000</intervalMs>
+        <File>${log.dir}/artifactory-traffic-v2.log</File>
+        <encoder>
+            <pattern>%m%n</pattern>
+        </encoder>
+        <rollingPolicy class="org.jfrog.common.logging.logback.rolling.FixedWindowWithDateRollingPolicy">
+            <maxIndex>150</maxIndex>
+            <FileNamePattern>${log.dir.archived}/artifactory-traffic-v2-%i.log.gz</FileNamePattern>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>1GB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
     <logger name="org.artifactory.addon.conan.migration.ConanV2MigrationJob" level="info" additivity="false">
-        <appender-ref ref="CONAN_V2_MIGRATION"/>
+        <appender-ref ref="CONAN_V2_MIGRATION" />
+    </logger>
+    <logger name="METRICS_EVENTS" additivity="false">
+        <level value="info" />
+        <appender-ref ref="METRICS-EVENTS-APPENDER" />
+    </logger>
+    <logger name="METRICS" additivity="false">
+        <level value="info" />
+        <appender-ref ref="METRICS-APPENDER" />
+    </logger>
+    <logger name="org.artifactory.traffic.v2.TrafficLoggerV2" level="info" additivity="false">
+        <appender-ref ref="TRAFFIC_V2" />
     </logger>
 
 </configuration>

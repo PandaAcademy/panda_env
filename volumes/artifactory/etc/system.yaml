@@ -2,8 +2,6 @@
 ## JFROG ARTIFACTORY SYSTEM CONFIGURATION FILE
 ## HOW TO USE: comment-out any field and keep the correct yaml indentation by deleting only the leading '#' character.
 configVersion: 1
-
-
 ## NOTE: JFROG_HOME is a place holder for the JFrog root directory containing the deployed product, the home directory for all JFrog products.
 ## Replace JFROG_HOME with the real path! For example, in RPM install, JFROG_HOME=/opt/jfrog
 
@@ -15,9 +13,8 @@ configVersion: 1
 shared:
     ## Extra Java options to pass to the JVM. These values add to or override the defaults.
     extraJavaOpts: "-Xms512m -Xmx2g"
-
     ## Security Configuration
-    security: 
+    security:
     ## Join key value for joining the cluster (takes precedence over 'joinKeyFile')
     #joinKey: "<Your joinKey>"
 
@@ -32,15 +29,12 @@ shared:
     #bootstrapKeysReadTimeoutSecs: 120
 
     ## Node Settings
-    node: 
-
+    node:
     ## A unique id to identify this node.
     ## Default: auto generated at startup.
     id: "localhost"
-
     ## Default: auto resolved by startup script
     ip: "127.0.0.1"
-
     ## Sets this node as primary in HA installation
     #primary: true
 
@@ -48,7 +42,7 @@ shared:
     #haEnabled: true
 
     ## Database Configuration
-    database: 
+    database:
     ## One of: mysql, oracle, mssql, postgresql, mariadb
     ## Default: Embedded derby
 

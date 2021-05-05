@@ -12026,3 +12026,527 @@
 2020-09-16T18:27:21.348Z|317f00b61d9ed87a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.4.2
 2020-09-16T18:27:26.349Z|e23d91b3e2ebb1a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/1.4.2
 2020-09-16T18:27:31.349Z|74a0ab0bf0fe260|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/1.4.2
+2021-05-05T12:31:36.617Z|72017369d8ad2128|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|124|JFrog-Frontend/1.18.6
+2021-05-05T12:31:36.864Z|bdfd82022749f84|127.0.0.1|jffe@000|GET|/api/auth/screen/footer|200|-1|0|145|JFrog-Frontend/1.18.6
+2021-05-05T12:31:36.928Z|71021f380d498831|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|48|JFrog-Frontend/1.18.6
+2021-05-05T12:31:36.928Z|62b911f975ad9a4e|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|53|JFrog-Frontend/1.18.6
+2021-05-05T12:31:36.936Z|79c7839382b45b1f|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|66|JFrog-Frontend/1.18.6
+2021-05-05T12:31:38.954Z|3838422f616e42d2|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|7|JFrog-Frontend/1.18.6
+2021-05-05T12:31:38.956Z|64a06ad62a5ad2b7|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|9|JFrog-Frontend/1.18.6
+2021-05-05T12:31:38.958Z|44564804199ce630|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|9|JFrog-Frontend/1.18.6
+2021-05-05T12:31:39.177Z|144e87221060c307|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:31:44.178Z|58d014793856cd86|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:31:49.205Z|194f4f82cbfe1fc7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:31:54.199Z|519cf2cf26715215|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:31:59.204Z|e7ac5d70d47b8a1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:32:04.198Z|1cb9fa0d99dd3914|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:32:09.014Z|6fd46c3ab4bfb983|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|57|JFrog-Frontend/1.18.6
+2021-05-05T12:32:09.029Z|648e44d4f95c1ea8|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|80|JFrog-Frontend/1.18.6
+2021-05-05T12:32:09.034Z|672a6fd7771949b9|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|83|JFrog-Frontend/1.18.6
+2021-05-05T12:32:09.207Z|350b1cc9ac04d8df|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/7.18.2-1
+2021-05-05T12:32:14.209Z|409b95c699f8cf3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.18.2-1
+2021-05-05T12:32:19.201Z|5613a28aaac5dcd3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:32:24.202Z|437166eed17561b4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:32:29.208Z|5ef3e97ec73a622b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:32:34.208Z|16f3af3b3aa662d9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:32:38.979Z|6ecca04a355d0e95|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|25|JFrog-Frontend/1.18.6
+2021-05-05T12:32:38.989Z|34fbf14ececf8dba|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|36|JFrog-Frontend/1.18.6
+2021-05-05T12:32:38.994Z|63a99ddb342221d4|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|40|JFrog-Frontend/1.18.6
+2021-05-05T12:32:39.214Z|3c7a54a53684573b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/7.18.2-1
+2021-05-05T12:32:44.211Z|157dbfbe10bf44ac|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:32:49.211Z|7c89e26dd2d641e7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:32:54.210Z|1ea877400ba1d625|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:32:59.235Z|dff5b91549570e9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/7.18.2-1
+2021-05-05T12:33:04.231Z|32e4446f464e2d80|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:33:08.974Z|29e2bd6ecfcc17e7|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:33:08.978Z|72ed94fdc96d43ff|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:33:08.991Z|61019e46ec6011a3|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|34|JFrog-Frontend/1.18.6
+2021-05-05T12:33:09.232Z|1d8376107144b87b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:33:14.234Z|86f8bca84d97f75|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:33:19.245Z|2e918dd4186bc1b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:33:24.246Z|5358e962d1bbf40a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:33:29.250Z|360e5ba63850fd16|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/7.18.2-1
+2021-05-05T12:33:34.250Z|181af495949a2914|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:33:38.996Z|70adf1eda7c8fe09|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|37|JFrog-Frontend/1.18.6
+2021-05-05T12:33:39Z|4edcd2e22c78c9a8|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|41|JFrog-Frontend/1.18.6
+2021-05-05T12:33:39.001Z|5178b7a7db0ee18f|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|42|JFrog-Frontend/1.18.6
+2021-05-05T12:33:39.250Z|69268ed5d1ef182e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:33:44.249Z|5b7cc731fc22eab7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:33:49.249Z|35283ba01c3f720f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:33:54.258Z|622acc5e4287d84f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:33:59.258Z|a8e02a80f68b439|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:34:04.257Z|fe4a7df8c9d525f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:34:08.980Z|5b707b09723f0590|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:34:08.985Z|12f64c2e8c2961c|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|26|JFrog-Frontend/1.18.6
+2021-05-05T12:34:08.987Z|749b1e9c8fd41066|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|28|JFrog-Frontend/1.18.6
+2021-05-05T12:34:09.256Z|14d7000ad9357d08|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:34:14.258Z|4bfaf1d1ef962b87|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:34:19.264Z|12f4ad234cfabd30|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:34:24.281Z|7e9c49ca85f82f1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:34:29.294Z|15f8c8d2e55c6a9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:34:34.295Z|2c6f2c2f301192e9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:34:39.033Z|cd4768fe615549a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|28|JFrog-Frontend/1.18.6
+2021-05-05T12:34:39.044Z|42a5e162f70ad63f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|37|JFrog-Frontend/1.18.6
+2021-05-05T12:34:39.057Z|3da1e06c25c93e25|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|50|JFrog-Frontend/1.18.6
+2021-05-05T12:34:39.294Z|15201ec447e87183|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:34:44.321Z|6dff1fc6ade01440|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:34:49.318Z|5d556d2e366b24f7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:34:54.348Z|362fb20235d08a95|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:34:59.356Z|46710af0f2804c2d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:35:04.362Z|5d7b68d0c72e4405|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:35:09.020Z|2ec184782433e992|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:35:09.022Z|7d32edad21ef4d78|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|25|JFrog-Frontend/1.18.6
+2021-05-05T12:35:09.023Z|25d9030d01413c5f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|26|JFrog-Frontend/1.18.6
+2021-05-05T12:35:09.362Z|4dc8f0d8972d265c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:35:14.370Z|7e579b406de87cc7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:35:19.373Z|1bd265469e310cc2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:35:24.383Z|421cb31f958064bf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:35:29.386Z|252211c14833dbe6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:35:34.392Z|425fd45c28eae0f8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:35:39.027Z|624aa6cd87829a08|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:35:39.031Z|1e0d0fca6a50680b|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:35:39.032Z|342e643f7523996e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|23|JFrog-Frontend/1.18.6
+2021-05-05T12:35:39.390Z|1959f2e9c9a0baae|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:35:44.401Z|60cdcabeea0a53d1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:35:49.405Z|4c36a8c7850aa5c7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:35:54.417Z|3f9df5c68f4b5f4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/7.18.2-1
+2021-05-05T12:35:59.415Z|54b5299a799011c2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:36:04.430Z|70586a7b45daeffa|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:36:09.034Z|5e7982d9d9f5feeb|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|28|JFrog-Frontend/1.18.6
+2021-05-05T12:36:09.034Z|5addef7fd720b34e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|29|JFrog-Frontend/1.18.6
+2021-05-05T12:36:09.035Z|7c23a339a735674b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|30|JFrog-Frontend/1.18.6
+2021-05-05T12:36:09.427Z|2896b63788aca5a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:36:14.424Z|7bfab0c70055f71e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:36:19.425Z|3543fb332397b84a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:36:24.426Z|3cca02fc515d9bd2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:36:29.429Z|1c0b6a1cb510d91a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:36:34.432Z|594ffa617bd81c4f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:36:39.034Z|22151691c62ef19e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:36:39.036Z|5a0331de5b4c3610|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|23|JFrog-Frontend/1.18.6
+2021-05-05T12:36:39.036Z|3ba5667348ab7d82|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|24|JFrog-Frontend/1.18.6
+2021-05-05T12:36:39.449Z|c9ab08a9f88c0c2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/7.18.2-1
+2021-05-05T12:36:44.447Z|73c4b67d71059aab|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/7.18.2-1
+2021-05-05T12:36:49.446Z|1e35ed32bf62c296|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:36:54.445Z|211f4550050a653c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:36:59.458Z|17c1c4e9b1948ba6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:37:04.473Z|8981cfa85128905|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/7.18.2-1
+2021-05-05T12:37:09.034Z|d82b810e1e726e2|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:37:09.034Z|10fe83c6a95d7d95|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:37:09.037Z|770e0b5a02ec8b59|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|20|JFrog-Frontend/1.18.6
+2021-05-05T12:37:09.462Z|2a12292b2bd2547|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:37:14.469Z|1340433fb6a8676f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:37:19.467Z|56bc44ceacf78d8d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:37:24.471Z|3b3f5ae8f9e61691|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:37:29.471Z|7025b27119f461c2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:37:34.473Z|58b86f7bd9c2b638|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:37:39.035Z|545596af5f530d11|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:37:39.036Z|46ba8863f43df460|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:37:39.038Z|4bddace2e079fdb|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|20|JFrog-Frontend/1.18.6
+2021-05-05T12:37:39.473Z|4204a1cfe1c0d5d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:37:44.479Z|2c0b38e3c0aab817|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/7.18.2-1
+2021-05-05T12:37:49.478Z|71b4d4a7d70c4ad2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:37:54.478Z|19b7930742b55f33|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:37:59.487Z|1f858f84b4c31786|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:38:04.481Z|250d400d11124bee|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:38:09.038Z|5211986f333a7922|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:38:09.038Z|269fa8f15f534bf6|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:38:09.038Z|c8351866591496e|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:38:09.476Z|53aebbec3cc32553|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:38:14.498Z|4a1e88bb4d9ad16b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/7.18.2-1
+2021-05-05T12:38:19.497Z|4d60c4eeaa47e6d6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:38:24.493Z|3766556a560212bf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:38:29.497Z|694014e2a9884a80|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:38:34.497Z|43503a59a5bb767|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:38:39.035Z|52b67dbee1ed84c2|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|13|JFrog-Frontend/1.18.6
+2021-05-05T12:38:39.039Z|7e5cf4d71816911e|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:38:39.040Z|2dd17cba24289b68|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:38:39.495Z|2b2f76da1d1c7b1f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|2|JFrog-Router/7.18.2-1
+2021-05-05T12:38:44.520Z|23865aa4887de8d5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:38:49.522Z|4ddd97a194ea991d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:38:54.526Z|3783224f5b2fcfd7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:38:59.538Z|622a42513a73e880|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:39:04.549Z|7a00046f1d7798a4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:39:09.042Z|24b5f35d6d8492f9|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:39:09.046Z|426821a4ce8d37bd|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|23|JFrog-Frontend/1.18.6
+2021-05-05T12:39:09.047Z|503786e5f8b7d2cf|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|24|JFrog-Frontend/1.18.6
+2021-05-05T12:39:09.553Z|3070ac3652c48362|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:39:14.550Z|2153cc57eb0a8dcc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:39:19.554Z|1961621b15023beb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:39:24.551Z|d293c58f3281f3d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:39:29.559Z|6a238d8ded4c944c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/7.18.2-1
+2021-05-05T12:39:34.556Z|5e3a7eba30b2ccdb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:39:39.041Z|13e56075a26b77f1|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|13|JFrog-Frontend/1.18.6
+2021-05-05T12:39:39.044Z|3be58e89c8884cec|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:39:39.044Z|25e8dddf71318c0d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:39:39.554Z|445e32ae2f46ee65|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:39:44.558Z|15854b3ca95eae94|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:39:49.564Z|344445f12ff42cc3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:39:54.560Z|3cf35ada29b40751|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:39:59.571Z|c4d65a8c8de7df2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:40:04.569Z|4eaab677237aedaf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:40:09.040Z|55f19d872446beef|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:40:09.041Z|5519c3bf840d8763|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:40:09.043Z|536058ce35ae26f8|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:40:09.569Z|a64e05b1d9766d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:40:14.570Z|7eafa902530a7816|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:40:19.566Z|40412587b3136579|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:40:24.570Z|4c31d30d52846b8c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:40:29.577Z|7250448637b7a2ec|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:40:34.599Z|7d1c95ec7203c801|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:40:39.049Z|48906e185280be42|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:40:39.050Z|c66871f9b76a874|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:40:39.050Z|5407720741761b19|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:40:39.582Z|4a1dfdc70e8bbe1b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:40:44.589Z|2eb76643d9277aaf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:40:49.586Z|55a48632da323c96|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:40:54.587Z|19e6f58e062f13b0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:40:59.600Z|57a93fa2166e1f4e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:41:04.604Z|2722d3f75432a95d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:41:09.048Z|3cc5029e1fc7cfd7|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:41:09.049Z|779db9b0151e11e3|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:41:09.049Z|534ffed0994fb4f3|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:41:09.602Z|1a297ca40af72ee1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:41:14.605Z|5df9b95327659f21|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:41:19.605Z|6070b59c09ed5b0f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:41:24.614Z|bee36b6c51de64a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:41:29.616Z|7ab7867e17e2be38|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:41:34.620Z|6e05ec94db12f001|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:41:39.087Z|157e9003be824c40|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|9|JFrog-Frontend/1.18.6
+2021-05-05T12:41:39.092Z|6b43e875d994d408|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|24|JFrog-Frontend/1.18.6
+2021-05-05T12:41:39.092Z|29ba2ae39794640f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:41:39.622Z|315bf54dce58b959|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:41:44.622Z|4daac0cd9fd45084|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:41:49.620Z|4c9eaf93ca7ac7e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:41:54.632Z|7b0299c24b1782ef|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:41:59.640Z|4768569aab85390b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:42:04.638Z|1ca160ddf84d8247|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:42:09.051Z|5b743dd30a4d24a3|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|13|JFrog-Frontend/1.18.6
+2021-05-05T12:42:09.056Z|3403318ad0038408|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:42:09.056Z|7b2751233053731d|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:42:09.636Z|5c8e456d06be897e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:42:14.641Z|2229915d18bcb5ff|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:42:19.642Z|27c60a1458cb6908|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:42:24.644Z|7d74e1e225bb0a44|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:42:29.641Z|208f89a371070df7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:42:34.645Z|500dece2136320f5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:42:39.083Z|cc8b232a7117083|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:42:39.085Z|bf7ee6c0efe21ef|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:42:39.088Z|7edc3ec95c6730e2|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|19|JFrog-Frontend/1.18.6
+2021-05-05T12:42:39.644Z|5428ea069c162293|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:42:44.642Z|715b0fdd2563f0be|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:42:49.644Z|58c07c05c93b86f1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:42:54.646Z|145098ec2a6fdc4c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:42:59.647Z|5f2925aedb815067|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:43:04.647Z|4349a4c115371887|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:43:09.078Z|2921a7c68bde973c|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|12|JFrog-Frontend/1.18.6
+2021-05-05T12:43:09.083Z|15236994d2233851|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:43:09.083Z|6902f2b1d38d48ba|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:43:09.648Z|68834e75ed5f5710|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:43:14.676Z|7beb3dcb1844c7b6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:43:19.677Z|1e13d17ac194b96f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:43:24.679Z|739cda48e7cb5aaf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:43:29.679Z|319a7cc5f514984e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:43:34.679Z|886dc0bc190b3e6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:43:39.096Z|37e20766d881646d|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:43:39.097Z|659d02265f9cb737|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:43:39.097Z|1cf38195155788fe|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|23|JFrog-Frontend/1.18.6
+2021-05-05T12:43:39.678Z|74263bd53ce862a0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:43:44.676Z|2c031ad1f3cfd8ca|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:43:49.678Z|21b7e9453b52e612|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:43:54.684Z|952a469fd4c0017|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:43:59.688Z|7e065000ad9bd753|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:44:04.690Z|42756648a227c645|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:44:09.091Z|220bd56015fbbe78|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:44:09.100Z|3086c1539ab8fa38|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|24|JFrog-Frontend/1.18.6
+2021-05-05T12:44:09.101Z|72368aff3f85c332|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|26|JFrog-Frontend/1.18.6
+2021-05-05T12:44:09.690Z|3cf26e1df2f58fc2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:44:14.693Z|b67ea9186f2fd75|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:44:19.692Z|4f33389a1575aa3d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:44:24.702Z|6ad158fd1a67470|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/7.18.2-1
+2021-05-05T12:44:29.701Z|51c1647c9313dff3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:44:34.698Z|38e1d1bb7c3deb74|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:44:39.150Z|17b294d13aee1116|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:44:39.150Z|69b8b5cfd9ecd446|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|12|JFrog-Frontend/1.18.6
+2021-05-05T12:44:39.153Z|2527b0a19770a858|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:44:39.706Z|31f985a423f8f8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|2|JFrog-Router/7.18.2-1
+2021-05-05T12:44:44.705Z|7f70f546b4775431|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:44:49.709Z|8b317be73fd643|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:44:54.711Z|2e8f9e1a258236b3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:44:59.709Z|e55e1602d6212b8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:45:04.712Z|5243224aecee41b7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:45:09.149Z|19b6dd49bd171256|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|13|JFrog-Frontend/1.18.6
+2021-05-05T12:45:09.150Z|28a05ac12ea06942|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:45:09.150Z|7d1be4b1b1379c43|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:45:09.709Z|4e7b0aa00ec7527a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:45:14.720Z|75e9e47020915d99|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:45:19.722Z|6096daaf616c5b3a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:45:24.723Z|2ba1698032ab9557|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:45:29.722Z|6b3cfa6f08c4caa3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:45:34.723Z|76cfba512103b5c0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:45:39.152Z|69bfe71b5c34b48a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:45:39.152Z|3b55efd491da3d98|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:45:39.152Z|7043b5e6fa00d765|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:45:39.722Z|14c2d2ee8829bfa|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:45:44.735Z|3b41a1da1758999f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:45:49.758Z|392004c24d94ceb3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:45:54.772Z|51a73ac8a0e1172d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:45:59.767Z|4aa6cc5acd63e185|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:46:04.767Z|64e06e4fc6855d0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:46:09.155Z|3e5f668fe1714311|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:46:09.156Z|70afde8e87ab8a68|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:46:09.157Z|ba03dfb2965d6a|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:46:09.767Z|5a2768306955956e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:46:14.773Z|2e14f2ed3b7233d8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:46:19.769Z|60673d1f33f3fc04|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:46:24.775Z|12acd7bd23e0c916|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:46:29.773Z|568eaf468f804f10|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:46:34.785Z|7595cf3805a25c80|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:46:39.164Z|1f6a2de6023dfc8e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|24|JFrog-Frontend/1.18.6
+2021-05-05T12:46:39.166Z|381bc09440937c20|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|25|JFrog-Frontend/1.18.6
+2021-05-05T12:46:39.167Z|342ec3b407503b13|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|27|JFrog-Frontend/1.18.6
+2021-05-05T12:46:39.780Z|3645767ee0468351|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:46:44.785Z|7aafe2385f65bb7e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:46:49.790Z|3115be53def4b87c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:46:54.793Z|7b5f4764d286e345|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:46:59.793Z|45939e9decce5dc8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:47:04.791Z|47614c3e963488d9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:47:09.159Z|5ba48dc30141296c|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|13|JFrog-Frontend/1.18.6
+2021-05-05T12:47:09.159Z|1041a050ea2e6bcb|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|12|JFrog-Frontend/1.18.6
+2021-05-05T12:47:09.159Z|1e293cc1dcad497e|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|13|JFrog-Frontend/1.18.6
+2021-05-05T12:47:09.794Z|275db15f075e5db|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:47:14.794Z|433f0f05035bc3d9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:47:19.797Z|4768a35159f3a891|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:47:24.798Z|638e61fd8d3f155d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:47:29.798Z|67a822909af25cde|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:47:34.798Z|51f6dd76b9ee5e5c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:47:39.162Z|77da90e6339f6139|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|11|JFrog-Frontend/1.18.6
+2021-05-05T12:47:39.168Z|5099fbf11aedb7a5|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|19|JFrog-Frontend/1.18.6
+2021-05-05T12:47:39.168Z|3d29a64a191d3a40|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|19|JFrog-Frontend/1.18.6
+2021-05-05T12:47:39.793Z|739ebbd3a39e9d98|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:47:44.800Z|18122d8666d68fb7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:47:49.807Z|67248229becd3efa|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:47:54.812Z|38dae60515b313f3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:47:59.817Z|3300982e5aba6e08|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:48:04.813Z|22c4d9906eda3421|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:48:09.165Z|24fc7109c6a7867e|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:48:09.169Z|222370f531564684|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:48:09.176Z|462fe0c1d8a261e1|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|25|JFrog-Frontend/1.18.6
+2021-05-05T12:48:09.831Z|a41d96638d5cd9a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|2|JFrog-Router/7.18.2-1
+2021-05-05T12:48:14.831Z|334c1d7c8474277a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:48:19.835Z|37833a4aa5b9e02f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:48:24.839Z|6cb8efb17598371f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:48:29.845Z|75719ed2736db24|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:48:34.844Z|594ae8ae575e155b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:48:39.165Z|69f3ce2012d108c4|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|11|JFrog-Frontend/1.18.6
+2021-05-05T12:48:39.169Z|63b0372abb557973|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:48:39.169Z|745db770b1093ffc|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:48:39.842Z|48f7228d691b5439|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:48:44.844Z|47d0cbcf54b91c4a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:48:49.841Z|30078844527f03c8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:48:54.844Z|7c24260805a78362|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:48:59.883Z|39b415b588b9463e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:49:04.889Z|420cd54ead8b09ab|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:49:09.177Z|52db61caca75c836|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|11|JFrog-Frontend/1.18.6
+2021-05-05T12:49:09.183Z|9db9dcc77307d33|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:49:09.187Z|62dbabf4de7a82b2|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|21|JFrog-Frontend/1.18.6
+2021-05-05T12:49:09.884Z|52f5ed53b66e936|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:49:14.918Z|78877d5adf3cc03|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:49:19.914Z|1a350f101459cc07|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:49:24.929Z|37ee3c853925dc2d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:49:29.930Z|6deb9062fdeaf0f2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:49:34.931Z|3c7bb656a1b51f26|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:49:39.194Z|2cec3c0b2ca23127|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|20|JFrog-Frontend/1.18.6
+2021-05-05T12:49:39.196Z|4830360992c26f90|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|21|JFrog-Frontend/1.18.6
+2021-05-05T12:49:39.198Z|4f1c2d09f0b46807|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|25|JFrog-Frontend/1.18.6
+2021-05-05T12:49:39.930Z|3a934ef12ae8bbbd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:49:44.932Z|41cda65554db64fc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:49:49.939Z|72401f62231904f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|9|JFrog-Router/7.18.2-1
+2021-05-05T12:49:54.931Z|30c3da6042ceb790|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:49:59.938Z|66ca788ca860dfda|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:50:04.937Z|5fb0522b8186807d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:50:09.184Z|22ab7d7b6c01a9cc|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|11|JFrog-Frontend/1.18.6
+2021-05-05T12:50:09.184Z|1f83d7a6e5f5e50b|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|12|JFrog-Frontend/1.18.6
+2021-05-05T12:50:09.187Z|13cc5fa6d12028e8|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:50:09.937Z|5a9eb188d9de22cf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:50:14.940Z|29cab53ff6456fe3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:50:19.944Z|61e991978e80ab70|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|10|JFrog-Router/7.18.2-1
+2021-05-05T12:50:24.942Z|4a7b91146cd0a53e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:50:29.939Z|6ae543049d29002a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:50:34.942Z|27bd87e59ff05d69|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:50:39.183Z|11a57f796013bb9c|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|11|JFrog-Frontend/1.18.6
+2021-05-05T12:50:39.184Z|7cd23d4d77d5cfaf|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|12|JFrog-Frontend/1.18.6
+2021-05-05T12:50:39.184Z|18ce01af58d6724d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|12|JFrog-Frontend/1.18.6
+2021-05-05T12:50:39.942Z|65fdc972ba6266ad|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:50:44.949Z|6af6021448e50eb0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:50:49.970Z|4abbcdaf88734b66|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:50:54.971Z|73507fc811d5aad9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:50:59.973Z|38c25c5baf497c49|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|6|JFrog-Router/7.18.2-1
+2021-05-05T12:51:01.825Z|4d8c542261a0072f|192.168.44.1|anonymous|GET|/api/auth/screen/footer|200|-1|0|25|JFrog-Frontend/1.18.6
+2021-05-05T12:51:01.867Z|4d8c542261a0072f|192.168.44.1|anonymous|GET|/api/system/version|200|-1|0|65|JFrog-Frontend/1.18.6
+2021-05-05T12:51:01.944Z|78c8e69b2bd716be|192.168.44.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|138|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:02.057Z|201e4fe236b13685|192.168.44.1|anonymous|GET|/api/auth/current|200|-1|0|252|JFrog-Frontend/1.18.6
+2021-05-05T12:51:02.312Z|35f3e20ae4e19537|192.168.44.1|anonymous|POST|/ui/auth/logout|200|2|0|7|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:02.702Z|3843477a6bb5f842|192.168.44.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|9|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:02.717Z|6be785d4e79af1c2|192.168.44.1|anonymous|GET|/api/system/version|200|-1|0|26|JFrog-Frontend/1.18.6
+2021-05-05T12:51:02.725Z|6be785d4e79af1c2|192.168.44.1|anonymous|GET|/api/auth/screen/footer|200|-1|0|33|JFrog-Frontend/1.18.6
+2021-05-05T12:51:02.758Z|62fce7af08b8b54b|192.168.44.1|anonymous|GET|/ui/oauth2/loginRequestPlatform|404|2|0|59|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:03.353Z|5448270c4871ecda|192.168.44.1|anonymous|GET|/api/auth/current|200|-1|0|20|JFrog-Frontend/1.18.6
+2021-05-05T12:51:04.969Z|76b318e655e12413|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:51:09.188Z|5858595bcb97b4d3|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.190Z|3f7b86a6280ccfa5|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|17|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.195Z|5543e0a7fd098f45|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|22|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.297Z|20cb3414c61c12c3|192.168.44.1|anonymous|POST|/ui/auth/login|200|54|0|226|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.331Z|20cb3414c61c12c3|192.168.44.1|admin|GET|/api/auth/current|200|-1|0|8|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.351Z|20cb3414c61c12c3|192.168.44.1|admin|POST|/api/auth/logout|200|0|0|3|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.454Z|116f625bbc9d72b7|192.168.44.1|admin|GET|/api/auth/screen/footer|200|-1|0|11|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.472Z|116f625bbc9d72b7|192.168.44.1|admin|GET|/api/system/version|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.481Z|2a193c162d967247|192.168.44.1|admin|GET|/api/onboarding/initStatus|200|-1|0|62|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.562Z|4785b4bbd576f84f|192.168.44.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:09.566Z|73c24b8ca32a905d|192.168.44.1|admin|GET|/api/system/version|200|-1|0|2|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.570Z|73c24b8ca32a905d|192.168.44.1|admin|GET|/api/auth/screen/footer|200|-1|0|3|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.577Z|515dfde841858bd1|192.168.44.1|admin|GET|/api/auth/current|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.650Z|51942ffd9574e420|192.168.44.1|admin|GET|/api/onboarding/initStatus|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:51:09.698Z|5c708b7ff8b2a7f8|192.168.44.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|12|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:09.726Z|2ae7b875e26c9973|192.168.44.1|admin|GET|/api/repodata|200|2|0|12|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:09.822Z|3477c2015be09b86|192.168.44.1|admin|GET|/api/home/widget/artifactCount|200|2|0|20|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:09.969Z|1b3f28009e3d1f86|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:51:14.973Z|2de49616a806ca9f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:51:16.134Z|12b979dcdf2adc0a|192.168.44.1|admin|GET|/api/home/widget/artifactCount|200|2|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.220Z|35c641192e58c395|192.168.44.1|admin|POST|/api/treebrowser|200|152|0|87|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.291Z|7025f383c6c4eacf|192.168.44.1|admin|GET|/api/repodata|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.293Z|6194440b7cd0a0b2|192.168.44.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|4|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.295Z|2e02bae4dcd3c8a8|192.168.44.1|admin|GET|/api/repodata|200|2|0|6|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.328Z|70f82809e78da132|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|103|0|12|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.352Z|19e14eee25367351|192.168.44.1|admin|GET|/api/repodata|200|2|0|4|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.377Z|31f6442ef5f7e226|192.168.44.1|admin|POST|/api/artifactactions/download|200|36|0|15|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.382Z|18b2b9c6aa7a46f0|192.168.44.1|admin|GET|/api/artifactsearch/property/keyvalue|200|2|0|5|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.462Z|46ec8cb4b3629dd2|192.168.44.1|admin|POST|/api/artifactgeneral|200|69|0|30|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.474Z|596126355910478a|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:16.497Z|1c2edad87cbe0f4c|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|56|0|15|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:17.545Z|15259c1928f78468|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|94|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:17.608Z|27ac1717b003f502|192.168.44.1|admin|POST|/api/artifactactions/download|200|42|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:17.666Z|3b938809e9b23a18|192.168.44.1|admin|POST|/api/artifactgeneral|200|62|0|6|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:17.675Z|5e5d813598633487|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:17.687Z|74d7aef0238d2126|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|68|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:19.703Z|28de968ec90ca56|192.168.44.1|admin|POST|/api/treebrowser|200|124|0|51|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:19.972Z|46abb3892e31122e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:51:20.336Z|1803f3ce610f44c5|192.168.44.1|admin|POST|/api/treebrowser|200|126|0|10|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:21.538Z|500e0fd8afbcc0df|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|94|0|4|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:21.553Z|7a2a52c1b1641fa|192.168.44.1|admin|POST|/api/artifactactions/download|200|45|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:21.614Z|3830fdf9258a8e1d|192.168.44.1|admin|POST|/api/artifactgeneral|200|62|0|12|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:21.623Z|6a9344a5a167d1ef|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:21.639Z|204a5694cd56a61d|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|56|0|8|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:22.408Z|4265cb2922d312b8|192.168.44.1|admin|POST|/api/artifactgeneral|200|62|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:22.424Z|7db386901f8e84ff|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:22.438Z|1ac270b5b051d347|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|56|0|4|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:22.877Z|7af0996678252334|192.168.44.1|admin|POST|/api/treebrowser|200|111|0|11|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:24.062Z|27ed94864456229a|192.168.44.1|admin|POST|/api/treebrowser|200|124|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:24.972Z|fb1b59b167caf1c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:51:25.460Z|7fda1fba006ab019|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|108|0|13|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:25.475Z|38b7f1c75289ea05|192.168.44.1|admin|POST|/api/artifactactions/download|200|59|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:25.515Z|4bcd1cec8b683f7c|192.168.44.1|admin|POST|/api/artifactgeneral|200|76|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:25.527Z|49399bf996e782bf|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:25.536Z|2c62e15bea001e57|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|73|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:26.243Z|3a1967b5a8dccf71|192.168.44.1|admin|POST|/api/artifactgeneral|200|76|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:26.252Z|647024192a69fc14|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:26.276Z|4558d31e884fc404|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|73|0|7|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.169Z|460c7c7452c29ef1|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|120|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.182Z|3a75759d8b988242|192.168.44.1|admin|POST|/api/artifactactions/download|200|71|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.224Z|6ddb4c1033aa96a5|192.168.44.1|admin|POST|/api/artifactgeneral|200|88|0|4|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.232Z|4f8ed9d1994fcac0|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.242Z|1eba8ca3da7b9976|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|97|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.946Z|7bbe7f344d97f492|192.168.44.1|admin|POST|/api/artifactgeneral|200|88|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.955Z|4855d0bf1d3258a|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:27.964Z|6cdaf60ca9932160|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|97|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:29.991Z|5d56b15ba17db363|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:51:34.468Z|7926c9c402fe66e|192.168.44.1|admin|GET|/api/auth/screen/globalState|200|2|0|18|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:34.988Z|2bcbea7e6aa22879|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:51:36.083Z|524fea434f330220|192.168.44.1|admin|POST|/api/treebrowser|200|128|0|8|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:39.205Z|1d5e9e968c295e9f|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:51:39.205Z|72bbe71275290959|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:51:39.207Z|1a495ea2a5ccf934|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|16|JFrog-Frontend/1.18.6
+2021-05-05T12:51:39.529Z|7921f1b888324b29|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|123|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:39.547Z|7b600b9a77820b7c|192.168.44.1|admin|POST|/api/artifactactions/download|200|74|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:39.601Z|5591fbcb0d780617|192.168.44.1|admin|POST|/api/artifactgeneral|200|91|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:39.611Z|61d1b04af880621f|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:39.621Z|616755b01ad645af|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|97|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:39.997Z|5223015411260a33|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:51:42.299Z|2d7427e9428adf06|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|123|0|12|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:42.310Z|743756e89e938cb4|192.168.44.1|admin|POST|/api/artifactactions/download|200|74|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:44.990Z|220d15b08492ba37|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:51:46.507Z|46d14a0c663a4021|192.168.44.1|admin|POST|/api/artifactactions/delete|200|93|0|255|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.550Z|7528b49f0f6c7161|192.168.44.1|admin|POST|/api/treebrowser|200|169|0|6|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.578Z|1c394f1271162134|192.168.44.1|admin|POST|/api/treebrowser|200|126|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.607Z|770d5717e478d481|192.168.44.1|admin|POST|/api/treebrowser|200|111|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.629Z|30042235a632553|192.168.44.1|admin|POST|/api/treebrowser|200|124|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.651Z|5c4f7bf550e689c0|192.168.44.1|admin|POST|/api/treebrowser|200|128|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.668Z|2d43226e841631cf|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|108|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.690Z|4cc26129dd9992f1|192.168.44.1|admin|POST|/api/artifactactions/download|200|59|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.735Z|6870c04474e5cd36|192.168.44.1|admin|POST|/api/artifactgeneral|200|76|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.743Z|15e835cb4ff5ebe0|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:46.753Z|5698cb464df47e83|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|73|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:49.241Z|13ffdd7ae5d19c98|192.168.44.1|admin|POST|/api/treebrowser|200|152|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:49.989Z|3abe647bea87f175|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:51:54.858Z|2883770bbe22faa8|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|120|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:54.874Z|226f154d571456cb|192.168.44.1|admin|POST|/api/artifactactions/download|200|71|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:54.923Z|62aee01ba50ed48|192.168.44.1|admin|POST|/api/artifactgeneral|200|88|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:54.935Z|685fa08e4b7ccf7d|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:54.944Z|2320c4bfdf81f1d6|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|97|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:54.992Z|42616ebd2ed15f9b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:51:55.552Z|1c70f123b0d52eda|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|120|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:55.562Z|5f5e93e9cd0a223|192.168.44.1|admin|POST|/api/artifactactions/download|200|71|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:57.908Z|40374555e7d6a9e9|192.168.44.1|admin|POST|/api/artifactactions/delete|200|90|0|58|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:57.930Z|3e9d76c4d5fa3256|192.168.44.1|admin|POST|/api/treebrowser|200|169|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:57.950Z|201543f8d3da2c56|192.168.44.1|admin|POST|/api/treebrowser|200|126|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:57.970Z|40be1f990c912da4|192.168.44.1|admin|POST|/api/treebrowser|200|111|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:57.989Z|2e7f8179c3e3c284|192.168.44.1|admin|POST|/api/treebrowser|200|124|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:58.009Z|2b9c3d26ade5fabd|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|102|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:58.021Z|4c934c20192263a2|192.168.44.1|admin|POST|/api/artifactactions/download|200|53|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:58.067Z|1438cc4510620f46|192.168.44.1|admin|POST|/api/artifactgeneral|200|70|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:58.078Z|77b9e114def8f449|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:58.089Z|24f27a2e4f816323|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|69|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:59.442Z|f0a6077c15c9a65|192.168.44.1|admin|GET|/api/auth/screen/globalState|200|2|0|4|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:51:59.997Z|b0dc141d87b4d3f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:52:04.994Z|fdd73ed320e2379|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:52:05.631Z|5201ef9e37cf077c|192.168.44.1|admin|POST|/api/treebrowser/tabsAndActions|200|95|0|3|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:05.648Z|7a6c837c2c0feab7|192.168.44.1|admin|POST|/api/artifactactions/download|200|43|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:05.695Z|1c75f9b705452958|192.168.44.1|admin|POST|/api/artifactgeneral|200|63|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:05.707Z|3e50bbb595415eb5|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:05.716Z|46dfdca26ead86b2|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|70|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:06.445Z|5f130cd7d08df4b7|192.168.44.1|admin|POST|/api/artifactgeneral|200|63|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:06.455Z|2cc3fe8b88c71f03|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:06.474Z|32de52291b247cfa|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|70|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:08.821Z|33c2c542785c96e|192.168.44.1|admin|POST|/api/artifactgeneral|200|63|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:08.830Z|2438621220867193|192.168.44.1|admin|GET|/api/auth/canAnnotate|200|2|0|1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:08.841Z|2db375aa4cab43d8|192.168.44.1|admin|POST|/api/artifactgeneral/artifactsCount|200|70|0|2|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+2021-05-05T12:52:09.207Z|315d34f52a816cd7|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|14|JFrog-Frontend/1.18.6
+2021-05-05T12:52:09.208Z|6f972eaad557c61f|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:52:09.208Z|55c82ba636a543f2|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|15|JFrog-Frontend/1.18.6
+2021-05-05T12:52:09.996Z|1e32080213c5a868|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:52:14.998Z|50f7d25bd787707b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:52:19.998Z|28ff712939d696e1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:52:25.001Z|9e4b3693b3d86fe|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:52:30.022Z|7e8f437bc66c4c07|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:52:35.028Z|40533bbd2d096969|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:52:39.221Z|73095d2375c64300|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|27|JFrog-Frontend/1.18.6
+2021-05-05T12:52:39.225Z|377877130f5340ba|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|29|JFrog-Frontend/1.18.6
+2021-05-05T12:52:39.226Z|71187939cb1f5c3c|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|32|JFrog-Frontend/1.18.6
+2021-05-05T12:52:40.029Z|14c54e9cd8c6a057|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|2|JFrog-Router/7.18.2-1
+2021-05-05T12:52:45.033Z|714f8d02aa9f7fb5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:52:50.034Z|717d5e3a209265d0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:52:55.036Z|4f0c09934f69509f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:53:00.037Z|63a70ffe8490a6a6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:53:05.038Z|604affaceda6db90|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|5|JFrog-Router/7.18.2-1
+2021-05-05T12:53:09.234Z|2983df175d4bb456|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|12|JFrog-Frontend/1.18.6
+2021-05-05T12:53:09.239Z|2b26914cdcf2669|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:53:09.239Z|3becd7b8afd30094|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|18|JFrog-Frontend/1.18.6
+2021-05-05T12:53:10.040Z|2d84f89bcd1a027|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|3|JFrog-Router/7.18.2-1
+2021-05-05T12:53:15.039Z|2182e6d31f3b63e8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:53:20.046Z|97f5ef4966ab0f0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|7|JFrog-Router/7.18.2-1
+2021-05-05T12:53:25.044Z|5c944ce09dd8832c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|8|JFrog-Router/7.18.2-1
+2021-05-05T12:53:30.045Z|17f6092a7e72db52|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|4|JFrog-Router/7.18.2-1
+2021-05-05T12:53:35.046Z|389707ec4022040c|127.0.0.1|anonymous|GET|/api/system/ping|500|-1|0|1|JFrog-Router/7.18.2-1
+2021-05-05T12:53:39.262Z|4d36f931a546a76c|127.0.0.1|non_authenticated_user|GET|/api/crowd|401|-1|0|42|JFrog-Frontend/1.18.6
+2021-05-05T12:53:39.262Z|539e445790827bd7|127.0.0.1|non_authenticated_user|GET|/api/httpsso|401|-1|0|42|JFrog-Frontend/1.18.6
+2021-05-05T12:53:39.262Z|2ae76053c418a33|127.0.0.1|non_authenticated_user|GET|/api/securityconfig|401|-1|0|42|JFrog-Frontend/1.18.6
+2021-05-05T12:53:40.045Z|2b8cdcb9b35263ee|127.0.0.1|anonymous|GET|/api/system/ping|500|-1|0|1|JFrog-Router/7.18.2-1

@@ -1,14 +1,27 @@
-2020-09-16T16:46:06.117Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.7.8 Revision: 0.0.0 PID: 4112 Home: /opt/jfrog/artifactory
-2020-09-16T16:46:06.127Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - attempting pinging artifactory for 180 retires and 1.0s interval for total of 3 minutes
-2020-09-16T16:46:15.212Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 10
-2020-09-16T16:46:15.214Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 10 failed with code : ECONNREFUSED
-2020-09-16T16:46:25.269Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 20
-2020-09-16T16:46:25.270Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 20 failed with code : ECONNREFUSED
-2020-09-16T16:46:35.306Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 30
-2020-09-16T16:46:35.312Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 30 failed with code : undefined
-2020-09-16T16:46:39.495Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - artifactory was pinged successfully
-2020-09-16T16:46:39.495Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - setting service id - jffe@000
-2020-09-16T16:46:39.542Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
-2020-09-16T16:46:39.568Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
-2020-09-16T16:46:39.871Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Recurring tasks started
-2020-09-16T16:46:40.139Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 34.02 seconds. Listening on port: port 8070
+2021-05-05T12:31:06.270Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.18.6 Revision: 10000006 PID: 4189 Home: /opt/jfrog/artifactory
+2021-05-05T12:31:06.271Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - attempting pinging artifactory for 180 retires and 1.0s interval for total of 3 minutes
+2021-05-05T12:31:15.327Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - pinging artifactory, attempt number 10
+2021-05-05T12:31:15.344Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - pinging artifactory attempt number 10 failed with code : ECONNREFUSED
+2021-05-05T12:31:25.395Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - pinging artifactory, attempt number 20
+2021-05-05T12:31:25.397Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - pinging artifactory attempt number 20 failed with code : ECONNREFUSED
+2021-05-05T12:31:29.420Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-05-05T12:31:30.440Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-05-05T12:31:31.443Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-05-05T12:31:32.447Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 404 code
+2021-05-05T12:31:33.453Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-05-05T12:31:34.469Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-05-05T12:31:35.471Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - pinging artifactory, attempt number 30
+2021-05-05T12:31:35.474Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/system/ping failed with 503 code
+2021-05-05T12:31:35.474Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - pinging artifactory attempt number 30 failed with code : undefined
+2021-05-05T12:31:36.621Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - artifactory was pinged successfully
+2021-05-05T12:31:36.621Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - setting service id - jffe@000
+2021-05-05T12:31:36.659Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2021-05-05T12:31:36.698Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2021-05-05T12:31:36.938Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - Recurring tasks started
+2021-05-05T12:31:37.315Z [jffe ] [[34M[INFO ][39M] [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 31.21 seconds. Listening on port: port 8070
+2021-05-05T12:53:39.263Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/httpsso failed with 401 code
+2021-05-05T12:53:39.264Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - Error: fetchAndUpdateHttpSsoConfigs failed with error Request failed with status code 401
+    at PlatformConfiguration.isSass.PlatformConfiguration.fetchAndUpdateHttpSsoConfigs.catch (/opt/jfrog/artifactory/app/frontend/bin/server/dist/webpack:/src/PlatformState/PlatformConfiguration.ts:94:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2021-05-05T12:53:39.264Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/securityconfig failed with 401 code
+2021-05-05T12:53:39.265Z [jffe ] [[31M[1M[ERROR][22M[39M] [                ] [                              ] [main                ] - ArtifactoryClient::http [get] request to /api/crowd failed with 401 code
